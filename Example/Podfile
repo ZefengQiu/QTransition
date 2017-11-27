@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QTransition_Example' do
+  pod 'QTransition', :path => '../'
+
+  target 'QTransition_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
