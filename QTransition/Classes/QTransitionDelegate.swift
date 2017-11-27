@@ -7,7 +7,7 @@
 
 import UIKit
 
-@objc public protocol XETransitionDelegate {
+@objc public protocol QTransitionDelegate {
   
   @objc optional func transitionWillStartAnimating(from viewController: UIViewController)
   

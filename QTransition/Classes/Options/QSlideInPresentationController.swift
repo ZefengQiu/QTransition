@@ -10,7 +10,7 @@ import UIKit
 public final class QSlideInPresentationController: UIPresentationController {
   var dimmingView: UIView = UIView()
   var dimmingAlpha: CGFloat = QTransitionConstant.dimmingAlpha
-  var direction: QSlideTransition.Direction
+  var direction: QTransitionConstant.Direction
   var menuWidth: CGFloat
   
   override public var shouldRemovePresentersView: Bool {
@@ -31,7 +31,7 @@ public final class QSlideInPresentationController: UIPresentationController {
     return frame
   }
   
-  public init(presentedViewController: UIViewController, presenting presentingViewController: UIViewController?, direction:  QSlideTransition.Direction, menuWidth: CGFloat) {
+  public init(presentedViewController: UIViewController, presenting presentingViewController: UIViewController?, direction:  QTransitionConstant.Direction, menuWidth: CGFloat) {
     self.direction = direction
     self.menuWidth = menuWidth
     
@@ -40,11 +40,12 @@ public final class QSlideInPresentationController: UIPresentationController {
   }
   
   override public func presentationTransitionWillBegin() {
-    if let container = self.containerView
-    {
+    if let container = self.containerView {
       container.insertSubview(self.dimmingView, at: 0)
-      QLayout.itemWithSameLeftRightAroundInSuperView(self.dimmingView, superview: container, padding: 0)
-      QLayout.itemWithSameTopBottomAroundInSuperView(self.dimmingView, superview: container, padding: 0)
+      self.dimmingView.leftAnchor.constraint(equalTo: container.leftAnchor).isActive = true
+      self.dimmingView.rightAnchor.constraint(equalTo: container.rightAnchor).isActive = true
+      self.dimmingView.topAnchor.constraint(equalTo: container.topAnchor).isActive = true
+      self.dimmingView.bottomAnchor.constraint(equalTo: container.bottomAnchor).isActive = true
       
       guard let coordinator = self.presentedViewController.transitionCoordinator else {
         self.dimmingView.alpha = 1.0

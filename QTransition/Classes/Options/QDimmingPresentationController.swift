@@ -31,12 +31,13 @@ public class QDimmingPresentationController: UIPresentationController {
   }
   
   override public func presentationTransitionWillBegin() {
-    if let container = self.containerView
-    {
+    if let container = self.containerView {
       container.addSubview(self.dimmingView)
-      QLayout.itemWithSameLeftRightAroundInSuperView(self.dimmingView, superview: container, padding: 0)
-      QLayout.itemWithSameTopBottomAroundInSuperView(self.dimmingView, superview: container, padding: 0)
-      
+      self.dimmingView.leftAnchor.constraint(equalTo: container.leftAnchor).isActive = true
+      self.dimmingView.rightAnchor.constraint(equalTo: container.rightAnchor).isActive = true
+      self.dimmingView.topAnchor.constraint(equalTo: container.topAnchor).isActive = true
+      self.dimmingView.bottomAnchor.constraint(equalTo: container.bottomAnchor).isActive = true
+
       guard let coordinator = self.presentedViewController.transitionCoordinator else {
         self.dimmingView.alpha = 1.0
         return
@@ -48,8 +49,7 @@ public class QDimmingPresentationController: UIPresentationController {
     }
   }
   
-  override public func presentationTransitionDidEnd(_ completed: Bool)
-  {
+  override public func presentationTransitionDidEnd(_ completed: Bool) {
     if !completed {
       self.dimmingView.removeFromSuperview()
     }

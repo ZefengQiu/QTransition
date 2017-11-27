@@ -13,29 +13,29 @@ open class QTransition: NSObject {
   public var fromViewController: UIViewController?
   public var transition: QBaseTransition?
   
-  //public lazy var interactionController: QPanInteractionController = QPanInteractionController()
+  public lazy var interactionController: QPanInteractionController = QPanInteractionController()
   var isPresentInteractive: Bool = false
   var isDismissInteractive: Bool = false
   
   public convenience init(option: QTransitionConstant.TransitionOptions, menuWidth: CGFloat = 0.0) {
     self.init()
     
-//    switch option {
-//    case .slideLeft:
-//      let transition = QSlideTransition()
-//      transition.direction = .left
-//      transition.menuWidth = menuWidth
-//      self.transition = transition
-//
-//    case .slideRight:
-//      let transition = QSlideTransition()
-//      transition.direction = .right
-//      transition.menuWidth = menuWidth
-//      self.transition = transition
-//
-//    default:
-//      self.transition = QPushTransition()
-//    }
+    switch option {
+    case .slideLeft:
+      let transition = QSlideTransition()
+      transition.direction = .left
+      transition.menuWidth = menuWidth
+      self.transition = transition
+
+    case .slideRight:
+      let transition = QSlideTransition()
+      transition.direction = .right
+      transition.menuWidth = menuWidth
+      self.transition = transition
+
+    default:
+      self.transition = QPushTransition()
+    }
   }
   
   /**
@@ -53,7 +53,7 @@ open class QTransition: NSObject {
     self.isDismissInteractive = leaveInteractive
     
     if leaveInteractive {
-      //self.interactionController.wireTo(fromVC: self.fromViewController!, toVC: self.toViewController!, isPresentWithGesture: enterInteractive)
+      self.interactionController.wireTo(fromVC: self.fromViewController!, toVC: self.toViewController!, isPresentWithGesture: enterInteractive)
     }
   }
   
@@ -75,33 +75,33 @@ extension QTransition: UIViewControllerTransitioningDelegate {
     return trans
   }
   
-//  public func interactionControllerForPresentation(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
-//    self.interactionController.isPresenting = true
-//    return self.isPresentInteractive && self.interactionController.inProgress ? self.interactionController : nil
-//  }
-//
-//  public func interactionControllerForDismissal(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
-//    self.interactionController.isPresenting = false
-//    return self.isDismissInteractive && self.interactionController.inProgress ? self.interactionController : nil
-//  }
+  public func interactionControllerForPresentation(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
+    self.interactionController.isPresenting = true
+    return self.isPresentInteractive && self.interactionController.inProgress ? self.interactionController : nil
+  }
+
+  public func interactionControllerForDismissal(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
+    self.interactionController.isPresenting = false
+    return self.isDismissInteractive && self.interactionController.inProgress ? self.interactionController : nil
+  }
   
   public func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
     // slide transition is for present and dismiss menu
-//    if let slideTransition = self.transition as? QSlideTransition {
-//      let presentationController = QSlideInPresentationController(presentedViewController: presented,
-//                                                                   presenting: presenting,
-//                                                                   direction: slideTransition.direction,
-//                                                                   menuWidth: slideTransition.menuWidth)
-//      self.interactionController.preparePanDismissGesture(in: presentationController.dimmingView)
-//      return presentationController
-//    }
-//
-//    if self.transition is QPushTransition {
-//      let presentationController = QDimmingPresentationController(presentedViewController: presented,
-//                                                                   presenting: presenting,
-//                                                                   dimmingAlpha: 0.6)
-//      return presentationController
-//    }
+    if let slideTransition = self.transition as? QSlideTransition {
+      let presentationController = QSlideInPresentationController(presentedViewController: presented,
+                                                                   presenting: presenting,
+                                                                   direction: slideTransition.direction,
+                                                                   menuWidth: slideTransition.menuWidth)
+      self.interactionController.preparePanDismissGesture(in: presentationController.dimmingView)
+      return presentationController
+    }
+
+    if self.transition is QPushTransition {
+      let presentationController = QDimmingPresentationController(presentedViewController: presented,
+                                                                   presenting: presenting,
+                                                                   dimmingAlpha: 0.6)
+      return presentationController
+    }
 
     return nil
   }
