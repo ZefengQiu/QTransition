@@ -19,6 +19,24 @@
 		030542D51FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542D41FCBB40A001F1923 /* QTransitionDelegate.swift */; };
 		030542D61FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542D41FCBB40A001F1923 /* QTransitionDelegate.swift */; };
 		030542D71FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542D41FCBB40A001F1923 /* QTransitionDelegate.swift */; };
+		031150FB1FCC7E9200226D77 /* XEPanInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031150F31FCC7E9200226D77 /* XEPanInteractionController.swift */; };
+		031150FC1FCC7E9200226D77 /* XEPanInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031150F31FCC7E9200226D77 /* XEPanInteractionController.swift */; };
+		031150FD1FCC7E9200226D77 /* XEPanInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031150F31FCC7E9200226D77 /* XEPanInteractionController.swift */; };
+		031150FE1FCC7E9200226D77 /* XEDimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031150F41FCC7E9200226D77 /* XEDimmingPresentationController.swift */; };
+		031150FF1FCC7E9200226D77 /* XEDimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031150F41FCC7E9200226D77 /* XEDimmingPresentationController.swift */; };
+		031151001FCC7E9200226D77 /* XEDimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031150F41FCC7E9200226D77 /* XEDimmingPresentationController.swift */; };
+		031151011FCC7E9200226D77 /* XESlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031150F51FCC7E9200226D77 /* XESlideTransition.swift */; };
+		031151021FCC7E9200226D77 /* XESlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031150F51FCC7E9200226D77 /* XESlideTransition.swift */; };
+		031151031FCC7E9200226D77 /* XESlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031150F51FCC7E9200226D77 /* XESlideTransition.swift */; };
+		031151041FCC7E9200226D77 /* XEPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031150F61FCC7E9200226D77 /* XEPushTransition.swift */; };
+		031151051FCC7E9200226D77 /* XEPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031150F61FCC7E9200226D77 /* XEPushTransition.swift */; };
+		031151061FCC7E9200226D77 /* XEPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031150F61FCC7E9200226D77 /* XEPushTransition.swift */; };
+		031151071FCC7E9200226D77 /* XESlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031150F71FCC7E9200226D77 /* XESlideInPresentationController.swift */; };
+		031151081FCC7E9200226D77 /* XESlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031150F71FCC7E9200226D77 /* XESlideInPresentationController.swift */; };
+		031151091FCC7E9200226D77 /* XESlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031150F71FCC7E9200226D77 /* XESlideInPresentationController.swift */; };
+		0311510B1FCC7EB000226D77 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311510A1FCC7EB000226D77 /* UIViewController.swift */; };
+		0311510C1FCC7EB000226D77 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311510A1FCC7EB000226D77 /* UIViewController.swift */; };
+		0311510D1FCC7EB000226D77 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311510A1FCC7EB000226D77 /* UIViewController.swift */; };
 		1F33F60391468557ADC129136FD4652F /* Pods-QTransition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48111F81111B1A4245FAB1C31D73120C /* Pods-QTransition_Tests-dummy.m */; };
 		4F7208484CC48D0EFBCFECA93683D4A1 /* Pods-QTransition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD583515198CFABBDDE95DF72669143 /* Pods-QTransition_Example-dummy.m */; };
 		52D2A79738E0E306C4A5FD037957A52B /* Pods-QTransition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FD80693CF787285789D7FEA278B364 /* Pods-QTransition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +63,12 @@
 		030542CC1FCBB19B001F1923 /* QBaseTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QBaseTransition.swift; path = QTransition/Classes/QBaseTransition.swift; sourceTree = "<group>"; };
 		030542D01FCBB212001F1923 /* QTransitionConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QTransitionConstant.swift; path = QTransition/Classes/QTransitionConstant.swift; sourceTree = "<group>"; };
 		030542D41FCBB40A001F1923 /* QTransitionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QTransitionDelegate.swift; path = QTransition/Classes/QTransitionDelegate.swift; sourceTree = "<group>"; };
+		031150F31FCC7E9200226D77 /* XEPanInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XEPanInteractionController.swift; sourceTree = "<group>"; };
+		031150F41FCC7E9200226D77 /* XEDimmingPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XEDimmingPresentationController.swift; sourceTree = "<group>"; };
+		031150F51FCC7E9200226D77 /* XESlideTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XESlideTransition.swift; sourceTree = "<group>"; };
+		031150F61FCC7E9200226D77 /* XEPushTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XEPushTransition.swift; sourceTree = "<group>"; };
+		031150F71FCC7E9200226D77 /* XESlideInPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XESlideInPresentationController.swift; sourceTree = "<group>"; };
+		0311510A1FCC7EB000226D77 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		052DC8EBDE88C41E8A3ECEF48796ABD6 /* QTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QTransition-dummy.m"; sourceTree = "<group>"; };
 		0DEDA6B0BBFF5348DAB1E3DA2E6E1649 /* Pods-QTransition_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QTransition_Example.modulemap"; sourceTree = "<group>"; };
 		164C8709654F4AC5D27F155C8A86C45B /* Pods-QTransition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTransition_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -106,6 +130,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		031150F01FCC7E9200226D77 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0311510A1FCC7EB000226D77 /* UIViewController.swift */,
+			);
+			name = Extension;
+			path = QTransition/Classes/Extension;
+			sourceTree = "<group>";
+		};
+		031150F21FCC7E9200226D77 /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				031150F31FCC7E9200226D77 /* XEPanInteractionController.swift */,
+				031150F41FCC7E9200226D77 /* XEDimmingPresentationController.swift */,
+				031150F51FCC7E9200226D77 /* XESlideTransition.swift */,
+				031150F61FCC7E9200226D77 /* XEPushTransition.swift */,
+				031150F71FCC7E9200226D77 /* XESlideInPresentationController.swift */,
+			);
+			name = Options;
+			path = QTransition/Classes/Options;
+			sourceTree = "<group>";
+		};
 		04E3176086BCD82279ECD9814CEDAFA7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +242,8 @@
 		C8064C562C21E25CEB414E6816645EED /* QTransition */ = {
 			isa = PBXGroup;
 			children = (
+				031150F01FCC7E9200226D77 /* Extension */,
+				031150F21FCC7E9200226D77 /* Options */,
 				030542CC1FCBB19B001F1923 /* QBaseTransition.swift */,
 				030542C81FCBB0F1001F1923 /* QTransition.swift */,
 				030542D01FCBB212001F1923 /* QTransitionConstant.swift */,
@@ -349,7 +397,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031150FC1FCC7E9200226D77 /* XEPanInteractionController.swift in Sources */,
+				0311510C1FCC7EB000226D77 /* UIViewController.swift in Sources */,
+				031150FF1FCC7E9200226D77 /* XEDimmingPresentationController.swift in Sources */,
+				031151021FCC7E9200226D77 /* XESlideTransition.swift in Sources */,
+				031151081FCC7E9200226D77 /* XESlideInPresentationController.swift in Sources */,
 				030542CE1FCBB19B001F1923 /* QBaseTransition.swift in Sources */,
+				031151051FCC7E9200226D77 /* XEPushTransition.swift in Sources */,
 				030542CA1FCBB0F1001F1923 /* QTransition.swift in Sources */,
 				030542D21FCBB212001F1923 /* QTransitionConstant.swift in Sources */,
 				030542D61FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */,
@@ -361,7 +415,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031150FD1FCC7E9200226D77 /* XEPanInteractionController.swift in Sources */,
+				0311510D1FCC7EB000226D77 /* UIViewController.swift in Sources */,
+				031151001FCC7E9200226D77 /* XEDimmingPresentationController.swift in Sources */,
+				031151031FCC7E9200226D77 /* XESlideTransition.swift in Sources */,
+				031151091FCC7E9200226D77 /* XESlideInPresentationController.swift in Sources */,
 				030542CF1FCBB19B001F1923 /* QBaseTransition.swift in Sources */,
+				031151061FCC7E9200226D77 /* XEPushTransition.swift in Sources */,
 				030542CB1FCBB0F1001F1923 /* QTransition.swift in Sources */,
 				030542D31FCBB212001F1923 /* QTransitionConstant.swift in Sources */,
 				030542D71FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */,
@@ -373,7 +433,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031150FB1FCC7E9200226D77 /* XEPanInteractionController.swift in Sources */,
+				0311510B1FCC7EB000226D77 /* UIViewController.swift in Sources */,
+				031150FE1FCC7E9200226D77 /* XEDimmingPresentationController.swift in Sources */,
+				031151011FCC7E9200226D77 /* XESlideTransition.swift in Sources */,
+				031151071FCC7E9200226D77 /* XESlideInPresentationController.swift in Sources */,
 				030542CD1FCBB19B001F1923 /* QBaseTransition.swift in Sources */,
+				031151041FCC7E9200226D77 /* XEPushTransition.swift in Sources */,
 				030542C91FCBB0F1001F1923 /* QTransition.swift in Sources */,
 				030542D11FCBB212001F1923 /* QTransitionConstant.swift in Sources */,
 				030542D51FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */,
