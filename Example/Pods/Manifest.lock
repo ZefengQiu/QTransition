@@ -1,0 +1,16 @@
+PODS:
+  - QTransition (0.1.0)
+
+DEPENDENCIES:
+  - QTransition (from `../`)
+
+EXTERNAL SOURCES:
+  QTransition:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QTransition: 113c319669e184cd51a622a6fff825e50f38e619
+
+PODFILE CHECKSUM: e5ebfd77319a0603df2b564f26e3b8b00b79221a
+
+COCOAPODS: 1.4.0.beta.2

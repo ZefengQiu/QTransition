@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030542C91FCBB0F1001F1923 /* QTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542C81FCBB0F1001F1923 /* QTransition.swift */; };
+		030542CA1FCBB0F1001F1923 /* QTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542C81FCBB0F1001F1923 /* QTransition.swift */; };
+		030542CB1FCBB0F1001F1923 /* QTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542C81FCBB0F1001F1923 /* QTransition.swift */; };
+		030542CD1FCBB19B001F1923 /* QBaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542CC1FCBB19B001F1923 /* QBaseTransition.swift */; };
+		030542CE1FCBB19B001F1923 /* QBaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542CC1FCBB19B001F1923 /* QBaseTransition.swift */; };
+		030542CF1FCBB19B001F1923 /* QBaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542CC1FCBB19B001F1923 /* QBaseTransition.swift */; };
+		030542D11FCBB212001F1923 /* QTransitionConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542D01FCBB212001F1923 /* QTransitionConstant.swift */; };
+		030542D21FCBB212001F1923 /* QTransitionConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542D01FCBB212001F1923 /* QTransitionConstant.swift */; };
+		030542D31FCBB212001F1923 /* QTransitionConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542D01FCBB212001F1923 /* QTransitionConstant.swift */; };
+		030542D51FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542D41FCBB40A001F1923 /* QTransitionDelegate.swift */; };
+		030542D61FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542D41FCBB40A001F1923 /* QTransitionDelegate.swift */; };
+		030542D71FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542D41FCBB40A001F1923 /* QTransitionDelegate.swift */; };
+		1F33F60391468557ADC129136FD4652F /* Pods-QTransition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48111F81111B1A4245FAB1C31D73120C /* Pods-QTransition_Tests-dummy.m */; };
+		4F7208484CC48D0EFBCFECA93683D4A1 /* Pods-QTransition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD583515198CFABBDDE95DF72669143 /* Pods-QTransition_Example-dummy.m */; };
+		52D2A79738E0E306C4A5FD037957A52B /* Pods-QTransition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FD80693CF787285789D7FEA278B364 /* Pods-QTransition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE39D920DD5FD21069820561383AEC0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C53A9C12D00B8AD85E578F112A25D8D5 /* QTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46196B707BB9807D0D6DAFFBF610C029 /* QTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C977B2618B87109ECB625850685C3DCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E326B1A9DE1B34886A8BF8339E40CD6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EF7EFE570025410511637F9F5F1BF14C /* Pods-QTransition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 164C8709654F4AC5D27F155C8A86C45B /* Pods-QTransition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC5674B7F85C21BB54BBC80D98BE2F34 /* QTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 052DC8EBDE88C41E8A3ECEF48796ABD6 /* QTransition-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1FCB1968C7CD69FBB4352376148F5FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C414B18EAD39FDE8DE77571A3EB3DA;
+			remoteInfo = QTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030542C81FCBB0F1001F1923 /* QTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QTransition.swift; path = QTransition/Classes/QTransition.swift; sourceTree = "<group>"; };
+		030542CC1FCBB19B001F1923 /* QBaseTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QBaseTransition.swift; path = QTransition/Classes/QBaseTransition.swift; sourceTree = "<group>"; };
+		030542D01FCBB212001F1923 /* QTransitionConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QTransitionConstant.swift; path = QTransition/Classes/QTransitionConstant.swift; sourceTree = "<group>"; };
+		030542D41FCBB40A001F1923 /* QTransitionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QTransitionDelegate.swift; path = QTransition/Classes/QTransitionDelegate.swift; sourceTree = "<group>"; };
+		052DC8EBDE88C41E8A3ECEF48796ABD6 /* QTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QTransition-dummy.m"; sourceTree = "<group>"; };
+		0DEDA6B0BBFF5348DAB1E3DA2E6E1649 /* Pods-QTransition_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QTransition_Example.modulemap"; sourceTree = "<group>"; };
+		164C8709654F4AC5D27F155C8A86C45B /* Pods-QTransition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTransition_Example-umbrella.h"; sourceTree = "<group>"; };
+		1EEEBD0C8B41B2A6ED996FB067C8175F /* Pods-QTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		21DB3C2FFC38156DF24543F8281016C4 /* Pods-QTransition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QTransition_Tests.modulemap"; sourceTree = "<group>"; };
+		21EA8681D08163FE15A508831837ACA1 /* Pods-QTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		23FBE83D2F798981006F47000BF517FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304217389BB06FBD3FA327E8A9E35F5B /* QTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QTransition.modulemap; sourceTree = "<group>"; };
+		35A7A1CF18FAAAEA42C8D52B64294DD9 /* Pods-QTransition_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTransition_Tests-resources.sh"; sourceTree = "<group>"; };
+		361B69B824E1B1B6BD67B5BC8FBFEC69 /* Pods_QTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D153AFF294280B616B92D68FCEBDAA8 /* QTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTransition-prefix.pch"; sourceTree = "<group>"; };
+		3F6CBB7ECCF6D52FA213C510FA2259EF /* QTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTransition.xcconfig; sourceTree = "<group>"; };
+		41FD80693CF787285789D7FEA278B364 /* Pods-QTransition_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTransition_Tests-umbrella.h"; sourceTree = "<group>"; };
+		46196B707BB9807D0D6DAFFBF610C029 /* QTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTransition-umbrella.h"; sourceTree = "<group>"; };
+		48111F81111B1A4245FAB1C31D73120C /* Pods-QTransition_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QTransition_Tests-dummy.m"; sourceTree = "<group>"; };
+		4C17B63A933E7E1585EC1F9642D36753 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512809E0CA7B07F5A8AC69A4A9117E06 /* Pods-QTransition_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTransition_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		53AA95C1AA29B88472EAD31D9F940D0E /* Pods-QTransition_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QTransition_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7530BDD4B7C2CF61364CBD9E1398A743 /* Pods_QTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A3A9FFCB4EBFA096A732ED095D47129 /* Pods-QTransition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QTransition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		859DA520CA93D7042CAF33FA62C8843B /* Pods-QTransition_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTransition_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE12C27024A5FD204DF9E9163A78479 /* Pods-QTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9F29E2039774DDCA4182ED937137C0DF /* Pods-QTransition_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTransition_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2A0F7BD885224EFF607E861BE4E7BA7 /* Pods-QTransition_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTransition_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6FBF3FB12BF75A92D32002DDC53FCCB /* Pods-QTransition_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTransition_Example-resources.sh"; sourceTree = "<group>"; };
+		CDB72897B0222FBDE3A41258C9FD56CF /* Pods-QTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CDD583515198CFABBDDE95DF72669143 /* Pods-QTransition_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QTransition_Example-dummy.m"; sourceTree = "<group>"; };
+		EA7A3EFA650420FD62CF843BB919FE63 /* QTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8722095B4E37400CEFFFAB20AF939A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27768ECE0C9D0A4250CED1F1231CCDC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C977B2618B87109ECB625850685C3DCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE2558865A64EDE3F557A4B481876F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E326B1A9DE1B34886A8BF8339E40CD6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF86C12150C40B2072D3018F99078D57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE39D920DD5FD21069820561383AEC0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E3176086BCD82279ECD9814CEDAFA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361B69B824E1B1B6BD67B5BC8FBFEC69 /* Pods_QTransition_Example.framework */,
+				7530BDD4B7C2CF61364CBD9E1398A743 /* Pods_QTransition_Tests.framework */,
+				EA7A3EFA650420FD62CF843BB919FE63 /* QTransition.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		159DBBC61A355438FB16BF60C5789A6D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8064C562C21E25CEB414E6816645EED /* QTransition */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		343BEAE9772638488239C3132850FD21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C17B63A933E7E1585EC1F9642D36753 /* Info.plist */,
+				304217389BB06FBD3FA327E8A9E35F5B /* QTransition.modulemap */,
+				3F6CBB7ECCF6D52FA213C510FA2259EF /* QTransition.xcconfig */,
+				052DC8EBDE88C41E8A3ECEF48796ABD6 /* QTransition-dummy.m */,
+				3D153AFF294280B616B92D68FCEBDAA8 /* QTransition-prefix.pch */,
+				46196B707BB9807D0D6DAFFBF610C029 /* QTransition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QTransition";
+			sourceTree = "<group>";
+		};
+		56B44EBFC94DEEB5578FD7609364267D /* Pods-QTransition_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				23FBE83D2F798981006F47000BF517FB /* Info.plist */,
+				21DB3C2FFC38156DF24543F8281016C4 /* Pods-QTransition_Tests.modulemap */,
+				7A3A9FFCB4EBFA096A732ED095D47129 /* Pods-QTransition_Tests-acknowledgements.markdown */,
+				B2A0F7BD885224EFF607E861BE4E7BA7 /* Pods-QTransition_Tests-acknowledgements.plist */,
+				48111F81111B1A4245FAB1C31D73120C /* Pods-QTransition_Tests-dummy.m */,
+				512809E0CA7B07F5A8AC69A4A9117E06 /* Pods-QTransition_Tests-frameworks.sh */,
+				35A7A1CF18FAAAEA42C8D52B64294DD9 /* Pods-QTransition_Tests-resources.sh */,
+				41FD80693CF787285789D7FEA278B364 /* Pods-QTransition_Tests-umbrella.h */,
+				21EA8681D08163FE15A508831837ACA1 /* Pods-QTransition_Tests.debug.xcconfig */,
+				1EEEBD0C8B41B2A6ED996FB067C8175F /* Pods-QTransition_Tests.release.xcconfig */,
+			);
+			name = "Pods-QTransition_Tests";
+			path = "Target Support Files/Pods-QTransition_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				159DBBC61A355438FB16BF60C5789A6D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				04E3176086BCD82279ECD9814CEDAFA7 /* Products */,
+				E9482317A2DF86EFA817B440F260898D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2E16D80DE57C4255157ACA0ABF4AAE8 /* Pods-QTransition_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F8722095B4E37400CEFFFAB20AF939A3 /* Info.plist */,
+				0DEDA6B0BBFF5348DAB1E3DA2E6E1649 /* Pods-QTransition_Example.modulemap */,
+				53AA95C1AA29B88472EAD31D9F940D0E /* Pods-QTransition_Example-acknowledgements.markdown */,
+				9F29E2039774DDCA4182ED937137C0DF /* Pods-QTransition_Example-acknowledgements.plist */,
+				CDD583515198CFABBDDE95DF72669143 /* Pods-QTransition_Example-dummy.m */,
+				859DA520CA93D7042CAF33FA62C8843B /* Pods-QTransition_Example-frameworks.sh */,
+				C6FBF3FB12BF75A92D32002DDC53FCCB /* Pods-QTransition_Example-resources.sh */,
+				164C8709654F4AC5D27F155C8A86C45B /* Pods-QTransition_Example-umbrella.h */,
+				9DE12C27024A5FD204DF9E9163A78479 /* Pods-QTransition_Example.debug.xcconfig */,
+				CDB72897B0222FBDE3A41258C9FD56CF /* Pods-QTransition_Example.release.xcconfig */,
+			);
+			name = "Pods-QTransition_Example";
+			path = "Target Support Files/Pods-QTransition_Example";
+			sourceTree = "<group>";
+		};
+		C8064C562C21E25CEB414E6816645EED /* QTransition */ = {
+			isa = PBXGroup;
+			children = (
+				030542CC1FCBB19B001F1923 /* QBaseTransition.swift */,
+				030542C81FCBB0F1001F1923 /* QTransition.swift */,
+				030542D01FCBB212001F1923 /* QTransitionConstant.swift */,
+				030542D41FCBB40A001F1923 /* QTransitionDelegate.swift */,
+				343BEAE9772638488239C3132850FD21 /* Support Files */,
+			);
+			name = QTransition;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E9482317A2DF86EFA817B440F260898D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2E16D80DE57C4255157ACA0ABF4AAE8 /* Pods-QTransition_Example */,
+				56B44EBFC94DEEB5578FD7609364267D /* Pods-QTransition_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		210D4E5C2F13C9A1AA77C1A2FAAD90F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7EFE570025410511637F9F5F1BF14C /* Pods-QTransition_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F6AEDA1EE006EC0D238753A62DDAAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53A9C12D00B8AD85E578F112A25D8D5 /* QTransition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A58F2F910B0DCA19BF287638164676 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D2A79738E0E306C4A5FD037957A52B /* Pods-QTransition_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02530C59F157E307C6C85140EEA7A626 /* Pods-QTransition_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACBCF39B7FF62A882F526FE34FC50078 /* Build configuration list for PBXNativeTarget "Pods-QTransition_Tests" */;
+			buildPhases = (
+				13EC125B7EED3A7F2F888C5EBE5977A5 /* Sources */,
+				ADE2558865A64EDE3F557A4B481876F8 /* Frameworks */,
+				86A58F2F910B0DCA19BF287638164676 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QTransition_Tests";
+			productName = "Pods-QTransition_Tests";
+			productReference = 7530BDD4B7C2CF61364CBD9E1398A743 /* Pods_QTransition_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		138A5B4A83255E163D890CA7E6BA31BF /* Pods-QTransition_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4EF44871D6255D4E04E795680E15CA /* Build configuration list for PBXNativeTarget "Pods-QTransition_Example" */;
+			buildPhases = (
+				D358CFD11FAFAED0045CC75A3813388F /* Sources */,
+				BF86C12150C40B2072D3018F99078D57 /* Frameworks */,
+				210D4E5C2F13C9A1AA77C1A2FAAD90F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B40B110B613008FE7FF0C550D84CE165 /* PBXTargetDependency */,
+			);
+			name = "Pods-QTransition_Example";
+			productName = "Pods-QTransition_Example";
+			productReference = 361B69B824E1B1B6BD67B5BC8FBFEC69 /* Pods_QTransition_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84C414B18EAD39FDE8DE77571A3EB3DA /* QTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9336D6930C91AED3B08A59C4A79B638 /* Build configuration list for PBXNativeTarget "QTransition" */;
+			buildPhases = (
+				9D3AE8451A8587737A652B82A3109B65 /* Sources */,
+				27768ECE0C9D0A4250CED1F1231CCDC0 /* Frameworks */,
+				66F6AEDA1EE006EC0D238753A62DDAAC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTransition;
+			productName = QTransition;
+			productReference = EA7A3EFA650420FD62CF843BB919FE63 /* QTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0910;
+				TargetAttributes = {
+					02530C59F157E307C6C85140EEA7A626 = {
+						LastSwiftMigration = 0910;
+					};
+					138A5B4A83255E163D890CA7E6BA31BF = {
+						LastSwiftMigration = 0910;
+					};
+					84C414B18EAD39FDE8DE77571A3EB3DA = {
+						LastSwiftMigration = 0910;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 04E3176086BCD82279ECD9814CEDAFA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				138A5B4A83255E163D890CA7E6BA31BF /* Pods-QTransition_Example */,
+				02530C59F157E307C6C85140EEA7A626 /* Pods-QTransition_Tests */,
+				84C414B18EAD39FDE8DE77571A3EB3DA /* QTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13EC125B7EED3A7F2F888C5EBE5977A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030542CE1FCBB19B001F1923 /* QBaseTransition.swift in Sources */,
+				030542CA1FCBB0F1001F1923 /* QTransition.swift in Sources */,
+				030542D21FCBB212001F1923 /* QTransitionConstant.swift in Sources */,
+				030542D61FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */,
+				1F33F60391468557ADC129136FD4652F /* Pods-QTransition_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D3AE8451A8587737A652B82A3109B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030542CF1FCBB19B001F1923 /* QBaseTransition.swift in Sources */,
+				030542CB1FCBB0F1001F1923 /* QTransition.swift in Sources */,
+				030542D31FCBB212001F1923 /* QTransitionConstant.swift in Sources */,
+				030542D71FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */,
+				FC5674B7F85C21BB54BBC80D98BE2F34 /* QTransition-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D358CFD11FAFAED0045CC75A3813388F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030542CD1FCBB19B001F1923 /* QBaseTransition.swift in Sources */,
+				030542C91FCBB0F1001F1923 /* QTransition.swift in Sources */,
+				030542D11FCBB212001F1923 /* QTransitionConstant.swift in Sources */,
+				030542D51FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */,
+				4F7208484CC48D0EFBCFECA93683D4A1 /* Pods-QTransition_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B40B110B613008FE7FF0C550D84CE165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QTransition;
+			target = 84C414B18EAD39FDE8DE77571A3EB3DA /* QTransition */;
+			targetProxy = A1FCB1968C7CD69FBB4352376148F5FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F35C34935537B64DA6733780A742364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21EA8681D08163FE15A508831837ACA1 /* Pods-QTransition_Tests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTransition_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTransition_Tests/Pods-QTransition_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QTransition_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		128895F0CD9074A6AEBC7C098E109134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB72897B0222FBDE3A41258C9FD56CF /* Pods-QTransition_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTransition_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTransition_Example/Pods-QTransition_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QTransition_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23791196FFF4631385EBB2AAE8A7D09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6CBB7ECCF6D52FA213C510FA2259EF /* QTransition.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTransition/QTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QTransition/QTransition.modulemap";
+				PRODUCT_NAME = QTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		290CF0CBA551F2ACB7887C39FF48D22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EEEBD0C8B41B2A6ED996FB067C8175F /* Pods-QTransition_Tests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTransition_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTransition_Tests/Pods-QTransition_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QTransition_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3360360B0F6C655514969055040CD417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6CBB7ECCF6D52FA213C510FA2259EF /* QTransition.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTransition/QTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QTransition/QTransition.modulemap";
+				PRODUCT_NAME = QTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E31049F178899FBA6D64FECB191A3F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE12C27024A5FD204DF9E9163A78479 /* Pods-QTransition_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTransition_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTransition_Example/Pods-QTransition_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QTransition_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4EF44871D6255D4E04E795680E15CA /* Build configuration list for PBXNativeTarget "Pods-QTransition_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31049F178899FBA6D64FECB191A3F9F /* Debug */,
+				128895F0CD9074A6AEBC7C098E109134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACBCF39B7FF62A882F526FE34FC50078 /* Build configuration list for PBXNativeTarget "Pods-QTransition_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F35C34935537B64DA6733780A742364 /* Debug */,
+				290CF0CBA551F2ACB7887C39FF48D22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9336D6930C91AED3B08A59C4A79B638 /* Build configuration list for PBXNativeTarget "QTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3360360B0F6C655514969055040CD417 /* Debug */,
+				23791196FFF4631385EBB2AAE8A7D09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

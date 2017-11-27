@@ -1,0 +1,6 @@
+framework module QTransition {
+  umbrella header "QTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}
