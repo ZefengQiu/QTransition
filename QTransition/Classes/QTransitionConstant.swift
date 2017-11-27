@@ -7,7 +7,14 @@
 
 import UIKit
 
-public class QTransitionConstant {
+public struct QTransitionConstant {
+  
+  public enum Direction {
+    case left
+    case right
+    case top
+    case bottom
+  }
   
   public enum TransitionOptions {
     case push
