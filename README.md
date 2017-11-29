@@ -12,7 +12,7 @@ View Transitioning has always been most complicated and difficult subject in iOS
 Welcome to folk this repo and add more cool view transitioning effects.
 
 ### How To add new type of view transition
-1. it is really easy to add new type of transition, first just subclass `QBaseTransition` (checking QPushTransition as an example ), and overriding `animateTransition(using transitionContext: UIViewControllerContextTransitioning, fromVC: UIViewController, fromView: UIView, toVC: UIViewController, toView: UIView)` method;
+1. It is really easy to add new type of transition, first just subclass `QBaseTransition` (checking QPushTransition as an example ), and overriding `animateTransition(using transitionContext: UIViewControllerContextTransitioning, fromVC: UIViewController, fromView: UIView, toVC: UIViewController, toView: UIView)` method;
 2. And then a new case in `TransitionOptions` enum,;
 3. Finally, under `QTransition`  convenience initializer, switch block, create a new case and point `self.transition` to your own custom view transitioning instance.
 
@@ -21,6 +21,8 @@ Welcome to folk this repo and add more cool view transitioning effects.
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+iOS 10 or newer version, Swift 4.
 
 ## Installation
 
