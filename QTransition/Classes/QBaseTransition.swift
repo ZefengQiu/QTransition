@@ -24,7 +24,9 @@ open class QBaseTransition: UIPercentDrivenInteractiveTransition, UIViewControll
   }
   
   public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    // fromVC is always the view controller which is going to dismiss
     guard let fromVC = transitionContext.viewController(forKey: .from) else { return }
+    //toVC is the view controller which is going to be presented
     guard let toVC = transitionContext.viewController(forKey: .to) else { return }
     guard let fromView = fromVC.view else { return }
     guard let toView = toVC.view else { return }

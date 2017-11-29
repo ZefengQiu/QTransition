@@ -9,15 +9,19 @@ import UIKit
 
 open class QTransition: NSObject {
   
+  /// toVC is the view controller which is going to be presented
   public var toViewController: UIViewController?
+  
+  /// fromVC is always the view controller which is going to dismiss
   public var fromViewController: UIViewController?
+  
   public var transition: QBaseTransition?
   
   public lazy var interactionController: QPanInteractionController = QPanInteractionController()
   var isPresentInteractive: Bool = false
   var isDismissInteractive: Bool = false
   
-  public convenience init(option: QTransitionConstant.TransitionOptions, menuWidth: CGFloat = 0.0) {
+  public convenience init(option: QTransitionConstant.TransitionOptions = .push, menuWidth: CGFloat = 0.0) {
     self.init()
     
     switch option {
