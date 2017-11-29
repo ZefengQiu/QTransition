@@ -16,6 +16,14 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    let demo = UIBarButtonItem(title: "DEMO",
+                               style: .plain,
+                               target: self,
+                               action: #selector(ViewController.presentDemo))
+    self.navigationItem.rightBarButtonItem = demo
+  }
+  
+  @objc private func presentDemo() {
     let newVC = NewViewController()
     let nav = UINavigationController(rootViewController: newVC)
     self.present(to: nav, transition: self.transition, isInteractive: true)
