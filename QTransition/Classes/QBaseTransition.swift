@@ -48,11 +48,11 @@ open class QBaseTransition: UIPercentDrivenInteractiveTransition, UIViewControll
    - Parameter navigationController: from view navigation controller.
    */
   open func wireToDismiss(viewController: UIViewController, with navigationController: UINavigationController?) {
-//    self.viewController = viewController
-//    self.navigationController = navigationController
-//    let gesture = UIScreenEdgePanGestureRecognizer(target: self, action: #selector(QPushTransition.handleDismissPan(recognizer:)))
-//    gesture.edges = self.gestureEdge
-//    self.viewController.view.addGestureRecognizer(gesture)
+    self.viewController = viewController
+    self.navigationController = navigationController
+    let gesture = UIScreenEdgePanGestureRecognizer(target: self, action: #selector(QPushTransition.handleDismissPan(recognizer:)))
+    gesture.edges = self.gestureEdge
+    self.viewController.view.addGestureRecognizer(gesture)
   }
   
   @objc open func handleDismissPan(recognizer: UIScreenEdgePanGestureRecognizer) {
