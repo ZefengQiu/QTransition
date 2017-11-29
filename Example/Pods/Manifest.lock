@@ -1,7 +1,9 @@
 PODS:
+  - QLayoutor (0.1.1)
   - QTransition (0.1.0)
 
 DEPENDENCIES:
+  - QLayoutor
   - QTransition (from `/Users/zefengqiu/Developer/QTransition`)
 
 EXTERNAL SOURCES:
@@ -9,8 +11,9 @@ EXTERNAL SOURCES:
     :path: /Users/zefengqiu/Developer/QTransition
 
 SPEC CHECKSUMS:
+  QLayoutor: 2b6a0b0a846a55127a70e7cd800100d8f5e88286
   QTransition: 1e546115c07e6b6a4a2449e99a039009ad311bdd
 
-PODFILE CHECKSUM: bad412d3ee32ab41ca9f9fbe57b991e7a6df90be
+PODFILE CHECKSUM: 22dcb529171cc3d4e4d8bc45ea3d63df56e63610
 
 COCOAPODS: 1.4.0.beta.2

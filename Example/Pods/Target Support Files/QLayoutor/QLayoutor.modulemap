@@ -1,0 +1,6 @@
+framework module QLayoutor {
+  umbrella header "QLayoutor-umbrella.h"
+
+  export *
+  module * { export * }
+}
