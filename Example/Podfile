@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'QTransition_Example' do
-  pod 'QTransition', :path => '../'
+  pod 'QLayoutor'
+  pod 'QTransition', :path => '/Users/zefengqiu/Developer/QTransition'
 
   target 'QTransition_Tests' do
     inherit! :search_paths

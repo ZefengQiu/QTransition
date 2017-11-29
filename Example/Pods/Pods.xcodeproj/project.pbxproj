@@ -7,107 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030542C91FCBB0F1001F1923 /* QTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542C81FCBB0F1001F1923 /* QTransition.swift */; };
-		030542CA1FCBB0F1001F1923 /* QTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542C81FCBB0F1001F1923 /* QTransition.swift */; };
-		030542CB1FCBB0F1001F1923 /* QTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542C81FCBB0F1001F1923 /* QTransition.swift */; };
-		030542CD1FCBB19B001F1923 /* QBaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542CC1FCBB19B001F1923 /* QBaseTransition.swift */; };
-		030542CE1FCBB19B001F1923 /* QBaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542CC1FCBB19B001F1923 /* QBaseTransition.swift */; };
-		030542CF1FCBB19B001F1923 /* QBaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542CC1FCBB19B001F1923 /* QBaseTransition.swift */; };
-		030542D11FCBB212001F1923 /* QTransitionConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542D01FCBB212001F1923 /* QTransitionConstant.swift */; };
-		030542D21FCBB212001F1923 /* QTransitionConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542D01FCBB212001F1923 /* QTransitionConstant.swift */; };
-		030542D31FCBB212001F1923 /* QTransitionConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542D01FCBB212001F1923 /* QTransitionConstant.swift */; };
-		030542D51FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542D41FCBB40A001F1923 /* QTransitionDelegate.swift */; };
-		030542D61FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542D41FCBB40A001F1923 /* QTransitionDelegate.swift */; };
-		030542D71FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030542D41FCBB40A001F1923 /* QTransitionDelegate.swift */; };
-		0311510B1FCC7EB000226D77 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311510A1FCC7EB000226D77 /* UIViewController.swift */; };
-		0311510C1FCC7EB000226D77 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311510A1FCC7EB000226D77 /* UIViewController.swift */; };
-		0311510D1FCC7EB000226D77 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311510A1FCC7EB000226D77 /* UIViewController.swift */; };
-		0311510F1FCC7F9100226D77 /* QSlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311510E1FCC7F9100226D77 /* QSlideInPresentationController.swift */; };
-		031151101FCC7F9100226D77 /* QSlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311510E1FCC7F9100226D77 /* QSlideInPresentationController.swift */; };
-		031151111FCC7F9100226D77 /* QSlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311510E1FCC7F9100226D77 /* QSlideInPresentationController.swift */; };
-		031151131FCC806400226D77 /* QSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031151121FCC806400226D77 /* QSlideTransition.swift */; };
-		031151141FCC806400226D77 /* QSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031151121FCC806400226D77 /* QSlideTransition.swift */; };
-		031151151FCC806400226D77 /* QSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031151121FCC806400226D77 /* QSlideTransition.swift */; };
-		031151171FCC80FA00226D77 /* QPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031151161FCC80FA00226D77 /* QPushTransition.swift */; };
-		031151181FCC80FA00226D77 /* QPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031151161FCC80FA00226D77 /* QPushTransition.swift */; };
-		031151191FCC80FA00226D77 /* QPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031151161FCC80FA00226D77 /* QPushTransition.swift */; };
-		0311511B1FCC81B600226D77 /* QDimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311511A1FCC81B600226D77 /* QDimmingPresentationController.swift */; };
-		0311511C1FCC81B600226D77 /* QDimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311511A1FCC81B600226D77 /* QDimmingPresentationController.swift */; };
-		0311511D1FCC81B600226D77 /* QDimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311511A1FCC81B600226D77 /* QDimmingPresentationController.swift */; };
-		0311511F1FCC823D00226D77 /* QPanInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311511E1FCC823D00226D77 /* QPanInteractionController.swift */; };
-		031151201FCC823D00226D77 /* QPanInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311511E1FCC823D00226D77 /* QPanInteractionController.swift */; };
-		031151211FCC823D00226D77 /* QPanInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311511E1FCC823D00226D77 /* QPanInteractionController.swift */; };
+		020BE5880F0D93D56716193CDD9D7DAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		17441E9042F48FCA00B9CCCFC6894C35 /* QSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CAEA1ED1B1DFED8A5EDDCCBCB76C2 /* QSlideTransition.swift */; };
+		176EC28904604C6352EDB9D46EC70392 /* QTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49BE0BDE29DC918DDD8EC287D3469E6 /* QTransition.swift */; };
+		197C495DCDD87C77BFFCF06DDC1D735B /* QTransitionConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661D7D1F6CB02548C072E4CBE0814000 /* QTransitionConstant.swift */; };
 		1F33F60391468557ADC129136FD4652F /* Pods-QTransition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48111F81111B1A4245FAB1C31D73120C /* Pods-QTransition_Tests-dummy.m */; };
-		4F7208484CC48D0EFBCFECA93683D4A1 /* Pods-QTransition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD583515198CFABBDDE95DF72669143 /* Pods-QTransition_Example-dummy.m */; };
+		3255E54F42F47381CCF4F26A17EA3342 /* QTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E93748DB497EC6EE0C14906C034FE560 /* QTransition-dummy.m */; };
+		3A43256D012577C2FF5236F4219B14C5 /* QTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC2F29314B6082E329F629D4A3D7D12C /* QTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4165B6C7C2FB62300DBB450424F0358A /* Pods-QTransition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 164C8709654F4AC5D27F155C8A86C45B /* Pods-QTransition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A345E3A1C85563270FA411879A76148 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		52D2A79738E0E306C4A5FD037957A52B /* Pods-QTransition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FD80693CF787285789D7FEA278B364 /* Pods-QTransition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE39D920DD5FD21069820561383AEC0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C53A9C12D00B8AD85E578F112A25D8D5 /* QTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46196B707BB9807D0D6DAFFBF610C029 /* QTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C977B2618B87109ECB625850685C3DCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E326B1A9DE1B34886A8BF8339E40CD6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EF7EFE570025410511637F9F5F1BF14C /* Pods-QTransition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 164C8709654F4AC5D27F155C8A86C45B /* Pods-QTransition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC5674B7F85C21BB54BBC80D98BE2F34 /* QTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 052DC8EBDE88C41E8A3ECEF48796ABD6 /* QTransition-dummy.m */; };
+		5AE31BCF8538956050E33FD05C1F4565 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		5B74EE013D644DFAB0E82731192C9F57 /* QBaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5337FB4C69C9D4FD57680C1479CED2 /* QBaseTransition.swift */; };
+		5E687F7AE3C1F8F4FA19E0D256DA3415 /* QLayoutorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F774ABB39F1923583A59FF9E9D21E365 /* QLayoutorConstant.swift */; };
+		7F220F178824BE60058B5D143B251423 /* QLayoutor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9790F061065C004937F531F91B859EB3 /* QLayoutor-dummy.m */; };
+		7FFA9C415ED86AB6B7D8A0F598F73B32 /* QTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4060B5E30175FFD1FFA6AD29DACF7E /* QTransitionDelegate.swift */; };
+		806CB66238F7D7DC485902C35D5FFACB /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ECAB00AA7D31B3BFFECED8F3CFBDFF /* UIViewController.swift */; };
+		8F94C5CA716094D11B184EC0C6673A57 /* QLayoutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E812BD9019AB15941819177817954 /* QLayoutor.swift */; };
+		99D73044BE2ADA8B4311EF5B40E73606 /* QSlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA939D6CAA1EBBE8E59DF6E240D392D1 /* QSlideInPresentationController.swift */; };
+		9EA97FDE7C660EFA2DF61AD70C7470C2 /* QDimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF87F10F705CDBB29F1D31921254423A /* QDimmingPresentationController.swift */; };
+		A49E38A645D6A4B8EC2204763CDD8264 /* QPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804869F3588A828372F2800EEFB8D3BB /* QPushTransition.swift */; };
+		B49A2A879E565BDD430A35D840D1E30B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		B7613B2FE84BFC3CE9560B46FE8C2138 /* Pods-QTransition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD583515198CFABBDDE95DF72669143 /* Pods-QTransition_Example-dummy.m */; };
+		E326B1A9DE1B34886A8BF8339E40CD6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		EFD53B477A855A64519830C16CAAC2C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F00D3417293C1E16A1F8B02610D96E30 /* QPanInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424D4D49963619573CFE65539B1F7132 /* QPanInteractionController.swift */; };
+		FB67CDDC214C8BF8C4867259B29AE0B3 /* QLayoutor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF93C9AD94C9847C46311E2891A1B3D1 /* QLayoutor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A1FCB1968C7CD69FBB4352376148F5FB /* PBXContainerItemProxy */ = {
+		900A60944826E8B8A01E9873FE6B99D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 84C414B18EAD39FDE8DE77571A3EB3DA;
+			remoteGlobalIDString = 7F4406DF5176C7F0415EE71D0889F933;
 			remoteInfo = QTransition;
+		};
+		9FED4E9AFF1D911AFE78AE9A348FDBEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 318D683439324E51E7BE7E3322CA8664;
+			remoteInfo = QLayoutor;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		030542C81FCBB0F1001F1923 /* QTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QTransition.swift; path = QTransition/Classes/QTransition.swift; sourceTree = "<group>"; };
-		030542CC1FCBB19B001F1923 /* QBaseTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QBaseTransition.swift; path = QTransition/Classes/QBaseTransition.swift; sourceTree = "<group>"; };
-		030542D01FCBB212001F1923 /* QTransitionConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QTransitionConstant.swift; path = QTransition/Classes/QTransitionConstant.swift; sourceTree = "<group>"; };
-		030542D41FCBB40A001F1923 /* QTransitionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QTransitionDelegate.swift; path = QTransition/Classes/QTransitionDelegate.swift; sourceTree = "<group>"; };
-		0311510A1FCC7EB000226D77 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		0311510E1FCC7F9100226D77 /* QSlideInPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSlideInPresentationController.swift; sourceTree = "<group>"; };
-		031151121FCC806400226D77 /* QSlideTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSlideTransition.swift; sourceTree = "<group>"; };
-		031151161FCC80FA00226D77 /* QPushTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPushTransition.swift; sourceTree = "<group>"; };
-		0311511A1FCC81B600226D77 /* QDimmingPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QDimmingPresentationController.swift; sourceTree = "<group>"; };
-		0311511E1FCC823D00226D77 /* QPanInteractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPanInteractionController.swift; sourceTree = "<group>"; };
-		052DC8EBDE88C41E8A3ECEF48796ABD6 /* QTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QTransition-dummy.m"; sourceTree = "<group>"; };
-		0DEDA6B0BBFF5348DAB1E3DA2E6E1649 /* Pods-QTransition_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QTransition_Example.modulemap"; sourceTree = "<group>"; };
+		0DEDA6B0BBFF5348DAB1E3DA2E6E1649 /* Pods-QTransition_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QTransition_Example.modulemap"; sourceTree = "<group>"; };
 		164C8709654F4AC5D27F155C8A86C45B /* Pods-QTransition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTransition_Example-umbrella.h"; sourceTree = "<group>"; };
 		1EEEBD0C8B41B2A6ED996FB067C8175F /* Pods-QTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		21DB3C2FFC38156DF24543F8281016C4 /* Pods-QTransition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QTransition_Tests.modulemap"; sourceTree = "<group>"; };
+		21DB3C2FFC38156DF24543F8281016C4 /* Pods-QTransition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QTransition_Tests.modulemap"; sourceTree = "<group>"; };
 		21EA8681D08163FE15A508831837ACA1 /* Pods-QTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		23FBE83D2F798981006F47000BF517FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		304217389BB06FBD3FA327E8A9E35F5B /* QTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QTransition.modulemap; sourceTree = "<group>"; };
+		2D4883193BB3438BFCBB5BE6BAA4E38C /* QLayoutor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLayoutor-prefix.pch"; sourceTree = "<group>"; };
 		35A7A1CF18FAAAEA42C8D52B64294DD9 /* Pods-QTransition_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTransition_Tests-resources.sh"; sourceTree = "<group>"; };
-		361B69B824E1B1B6BD67B5BC8FBFEC69 /* Pods_QTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D153AFF294280B616B92D68FCEBDAA8 /* QTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTransition-prefix.pch"; sourceTree = "<group>"; };
-		3F6CBB7ECCF6D52FA213C510FA2259EF /* QTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTransition.xcconfig; sourceTree = "<group>"; };
+		3844B264828FC13EC868786E049FE681 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41FD80693CF787285789D7FEA278B364 /* Pods-QTransition_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTransition_Tests-umbrella.h"; sourceTree = "<group>"; };
-		46196B707BB9807D0D6DAFFBF610C029 /* QTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTransition-umbrella.h"; sourceTree = "<group>"; };
+		424D4D49963619573CFE65539B1F7132 /* QPanInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QPanInteractionController.swift; sourceTree = "<group>"; };
+		45ECAB00AA7D31B3BFFECED8F3CFBDFF /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		47E2F5F4E8399B53729B9D3746C92ED0 /* QLayoutor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QLayoutor.xcconfig; sourceTree = "<group>"; };
 		48111F81111B1A4245FAB1C31D73120C /* Pods-QTransition_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QTransition_Tests-dummy.m"; sourceTree = "<group>"; };
-		4C17B63A933E7E1585EC1F9642D36753 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C4C7BD0B66889E190DE488554D43C9 /* Pods_QTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QTransition_Tests.framework; path = "Pods-QTransition_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		512809E0CA7B07F5A8AC69A4A9117E06 /* Pods-QTransition_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTransition_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		51994E088FC7DA1EEBA4A7CC4D123230 /* QTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTransition-prefix.pch"; sourceTree = "<group>"; };
 		53AA95C1AA29B88472EAD31D9F940D0E /* Pods-QTransition_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QTransition_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7530BDD4B7C2CF61364CBD9E1398A743 /* Pods_QTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7EC1E602C93E12383DB5268A53B133 /* QLayoutor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QLayoutor.modulemap; sourceTree = "<group>"; };
+		661D7D1F6CB02548C072E4CBE0814000 /* QTransitionConstant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QTransitionConstant.swift; path = QTransition/Classes/QTransitionConstant.swift; sourceTree = "<group>"; };
 		7A3A9FFCB4EBFA096A732ED095D47129 /* Pods-QTransition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QTransition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C5337FB4C69C9D4FD57680C1479CED2 /* QBaseTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QBaseTransition.swift; path = QTransition/Classes/QBaseTransition.swift; sourceTree = "<group>"; };
+		804869F3588A828372F2800EEFB8D3BB /* QPushTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QPushTransition.swift; sourceTree = "<group>"; };
 		859DA520CA93D7042CAF33FA62C8843B /* Pods-QTransition_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTransition_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F4060B5E30175FFD1FFA6AD29DACF7E /* QTransitionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QTransitionDelegate.swift; path = QTransition/Classes/QTransitionDelegate.swift; sourceTree = "<group>"; };
+		922C746F27DABF4AF3DA98AD6105CDAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9760AF0248FC2FE874681F4AA0F2B57B /* QTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QTransition.framework; path = QTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9790F061065C004937F531F91B859EB3 /* QLayoutor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QLayoutor-dummy.m"; sourceTree = "<group>"; };
 		9DE12C27024A5FD204DF9E9163A78479 /* Pods-QTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9F29E2039774DDCA4182ED937137C0DF /* Pods-QTransition_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTransition_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC2F29314B6082E329F629D4A3D7D12C /* QTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTransition-umbrella.h"; sourceTree = "<group>"; };
+		AF5E812BD9019AB15941819177817954 /* QLayoutor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QLayoutor.swift; path = QLayoutor/Classes/QLayoutor.swift; sourceTree = "<group>"; };
 		B2A0F7BD885224EFF607E861BE4E7BA7 /* Pods-QTransition_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTransition_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B49BE0BDE29DC918DDD8EC287D3469E6 /* QTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QTransition.swift; path = QTransition/Classes/QTransition.swift; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA939D6CAA1EBBE8E59DF6E240D392D1 /* QSlideInPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QSlideInPresentationController.swift; sourceTree = "<group>"; };
 		C6FBF3FB12BF75A92D32002DDC53FCCB /* Pods-QTransition_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTransition_Example-resources.sh"; sourceTree = "<group>"; };
 		CDB72897B0222FBDE3A41258C9FD56CF /* Pods-QTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CDC44467D37DBE8CFF413F8B5592349F /* QLayoutor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QLayoutor.framework; path = QLayoutor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD583515198CFABBDDE95DF72669143 /* Pods-QTransition_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QTransition_Example-dummy.m"; sourceTree = "<group>"; };
-		EA7A3EFA650420FD62CF843BB919FE63 /* QTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9B7180889D0FF1C6174674FEB249F73 /* QTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTransition.xcconfig; sourceTree = "<group>"; };
+		DF87F10F705CDBB29F1D31921254423A /* QDimmingPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QDimmingPresentationController.swift; sourceTree = "<group>"; };
+		E93748DB497EC6EE0C14906C034FE560 /* QTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QTransition-dummy.m"; sourceTree = "<group>"; };
+		EF93C9AD94C9847C46311E2891A1B3D1 /* QLayoutor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLayoutor-umbrella.h"; sourceTree = "<group>"; };
+		F4668B71E830FACE1FFCFDB83368833F /* QTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QTransition.modulemap; sourceTree = "<group>"; };
+		F48394519B282FE3381DF46E5F4947B8 /* Pods_QTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QTransition_Example.framework; path = "Pods-QTransition_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48CAEA1ED1B1DFED8A5EDDCCBCB76C2 /* QSlideTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QSlideTransition.swift; sourceTree = "<group>"; };
+		F774ABB39F1923583A59FF9E9D21E365 /* QLayoutorConstant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QLayoutorConstant.swift; path = QLayoutor/Classes/QLayoutorConstant.swift; sourceTree = "<group>"; };
 		F8722095B4E37400CEFFFAB20AF939A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		27768ECE0C9D0A4250CED1F1231CCDC0 /* Frameworks */ = {
+		531BC25D0F46BAF18B2D6CF6E346DCCE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C977B2618B87109ECB625850685C3DCD /* Foundation.framework in Frameworks */,
+				B49A2A879E565BDD430A35D840D1E30B /* Foundation.framework in Frameworks */,
+				5AE31BCF8538956050E33FD05C1F4565 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672F53AF21EE7079B2AF45C8F5A3B71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD53B477A855A64519830C16CAAC2C5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,69 +132,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF86C12150C40B2072D3018F99078D57 /* Frameworks */ = {
+		D6766CA50C0AABF1DD254192F4A9E32E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE39D920DD5FD21069820561383AEC0B /* Foundation.framework in Frameworks */,
+				020BE5880F0D93D56716193CDD9D7DAA /* Foundation.framework in Frameworks */,
+				4A345E3A1C85563270FA411879A76148 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		031150F01FCC7E9200226D77 /* Extension */ = {
+		2B8591E8C1CA7957397BFF604B610D8A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0311510A1FCC7EB000226D77 /* UIViewController.swift */,
+				90C6AD86B41DEEB9C5793B9B714E6621 /* QTransition */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3CB55BE69D0610DAAB24465263E0EC2F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				45ECAB00AA7D31B3BFFECED8F3CFBDFF /* UIViewController.swift */,
 			);
 			name = Extension;
 			path = QTransition/Classes/Extension;
 			sourceTree = "<group>";
 		};
-		031150F21FCC7E9200226D77 /* Options */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0311511A1FCC81B600226D77 /* QDimmingPresentationController.swift */,
-				0311511E1FCC823D00226D77 /* QPanInteractionController.swift */,
-				031151161FCC80FA00226D77 /* QPushTransition.swift */,
-				031151121FCC806400226D77 /* QSlideTransition.swift */,
-				0311510E1FCC7F9100226D77 /* QSlideInPresentationController.swift */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
-			name = Options;
-			path = QTransition/Classes/Options;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		04E3176086BCD82279ECD9814CEDAFA7 /* Products */ = {
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				361B69B824E1B1B6BD67B5BC8FBFEC69 /* Pods_QTransition_Example.framework */,
-				7530BDD4B7C2CF61364CBD9E1398A743 /* Pods_QTransition_Tests.framework */,
-				EA7A3EFA650420FD62CF843BB919FE63 /* QTransition.framework */,
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		159DBBC61A355438FB16BF60C5789A6D /* Development Pods */ = {
+		4717EE5DA8A38ADDE5F035C4F3F7D4C8 /* QLayoutor */ = {
 			isa = PBXGroup;
 			children = (
-				C8064C562C21E25CEB414E6816645EED /* QTransition */,
+				AF5E812BD9019AB15941819177817954 /* QLayoutor.swift */,
+				F774ABB39F1923583A59FF9E9D21E365 /* QLayoutorConstant.swift */,
+				853B9104BF06CEC9FA7A4FAF43F3DB10 /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		343BEAE9772638488239C3132850FD21 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4C17B63A933E7E1585EC1F9642D36753 /* Info.plist */,
-				304217389BB06FBD3FA327E8A9E35F5B /* QTransition.modulemap */,
-				3F6CBB7ECCF6D52FA213C510FA2259EF /* QTransition.xcconfig */,
-				052DC8EBDE88C41E8A3ECEF48796ABD6 /* QTransition-dummy.m */,
-				3D153AFF294280B616B92D68FCEBDAA8 /* QTransition-prefix.pch */,
-				46196B707BB9807D0D6DAFFBF610C029 /* QTransition-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QTransition";
+			name = QLayoutor;
+			path = QLayoutor;
 			sourceTree = "<group>";
 		};
 		56B44EBFC94DEEB5578FD7609364267D /* Pods-QTransition_Tests */ = {
@@ -206,20 +211,42 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				159DBBC61A355438FB16BF60C5789A6D /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				04E3176086BCD82279ECD9814CEDAFA7 /* Products */,
+				2B8591E8C1CA7957397BFF604B610D8A /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				CE58C7CC6745A55A4F51B5387DED0BB7 /* Pods */,
+				EE1AB1369DB0FA58E9AC098D1EF300DD /* Products */,
 				E9482317A2DF86EFA817B440F260898D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		853B9104BF06CEC9FA7A4FAF43F3DB10 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				922C746F27DABF4AF3DA98AD6105CDAB /* Info.plist */,
+				5B7EC1E602C93E12383DB5268A53B133 /* QLayoutor.modulemap */,
+				47E2F5F4E8399B53729B9D3746C92ED0 /* QLayoutor.xcconfig */,
+				9790F061065C004937F531F91B859EB3 /* QLayoutor-dummy.m */,
+				2D4883193BB3438BFCBB5BE6BAA4E38C /* QLayoutor-prefix.pch */,
+				EF93C9AD94C9847C46311E2891A1B3D1 /* QLayoutor-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/QLayoutor";
 			sourceTree = "<group>";
+		};
+		90C6AD86B41DEEB9C5793B9B714E6621 /* QTransition */ = {
+			isa = PBXGroup;
+			children = (
+				7C5337FB4C69C9D4FD57680C1479CED2 /* QBaseTransition.swift */,
+				B49BE0BDE29DC918DDD8EC287D3469E6 /* QTransition.swift */,
+				661D7D1F6CB02548C072E4CBE0814000 /* QTransitionConstant.swift */,
+				8F4060B5E30175FFD1FFA6AD29DACF7E /* QTransitionDelegate.swift */,
+				3CB55BE69D0610DAAB24465263E0EC2F /* Extension */,
+				D822AE3DA2B3F320A7A60F2D53513337 /* Options */,
+				EE478C82DBD4AB1683CC9A62F437E835 /* Support Files */,
+			);
+			name = QTransition;
+			path = /Users/zefengqiu/Developer/QTransition;
+			sourceTree = "<absolute>";
 		};
 		C2E16D80DE57C4255157ACA0ABF4AAE8 /* Pods-QTransition_Example */ = {
 			isa = PBXGroup;
@@ -239,27 +266,25 @@
 			path = "Target Support Files/Pods-QTransition_Example";
 			sourceTree = "<group>";
 		};
-		C8064C562C21E25CEB414E6816645EED /* QTransition */ = {
+		CE58C7CC6745A55A4F51B5387DED0BB7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				031150F01FCC7E9200226D77 /* Extension */,
-				031150F21FCC7E9200226D77 /* Options */,
-				030542CC1FCBB19B001F1923 /* QBaseTransition.swift */,
-				030542C81FCBB0F1001F1923 /* QTransition.swift */,
-				030542D01FCBB212001F1923 /* QTransitionConstant.swift */,
-				030542D41FCBB40A001F1923 /* QTransitionDelegate.swift */,
-				343BEAE9772638488239C3132850FD21 /* Support Files */,
+				4717EE5DA8A38ADDE5F035C4F3F7D4C8 /* QLayoutor */,
 			);
-			name = QTransition;
-			path = ../..;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		D822AE3DA2B3F320A7A60F2D53513337 /* Options */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				DF87F10F705CDBB29F1D31921254423A /* QDimmingPresentationController.swift */,
+				424D4D49963619573CFE65539B1F7132 /* QPanInteractionController.swift */,
+				804869F3588A828372F2800EEFB8D3BB /* QPushTransition.swift */,
+				BA939D6CAA1EBBE8E59DF6E240D392D1 /* QSlideInPresentationController.swift */,
+				F48CAEA1ED1B1DFED8A5EDDCCBCB76C2 /* QSlideTransition.swift */,
 			);
-			name = iOS;
+			name = Options;
+			path = QTransition/Classes/Options;
 			sourceTree = "<group>";
 		};
 		E9482317A2DF86EFA817B440F260898D /* Targets Support Files */ = {
@@ -271,22 +296,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		EE1AB1369DB0FA58E9AC098D1EF300DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48394519B282FE3381DF46E5F4947B8 /* Pods_QTransition_Example.framework */,
+				50C4C7BD0B66889E190DE488554D43C9 /* Pods_QTransition_Tests.framework */,
+				CDC44467D37DBE8CFF413F8B5592349F /* QLayoutor.framework */,
+				9760AF0248FC2FE874681F4AA0F2B57B /* QTransition.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE478C82DBD4AB1683CC9A62F437E835 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3844B264828FC13EC868786E049FE681 /* Info.plist */,
+				F4668B71E830FACE1FFCFDB83368833F /* QTransition.modulemap */,
+				D9B7180889D0FF1C6174674FEB249F73 /* QTransition.xcconfig */,
+				E93748DB497EC6EE0C14906C034FE560 /* QTransition-dummy.m */,
+				51994E088FC7DA1EEBA4A7CC4D123230 /* QTransition-prefix.pch */,
+				AC2F29314B6082E329F629D4A3D7D12C /* QTransition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QTransition";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		210D4E5C2F13C9A1AA77C1A2FAAD90F4 /* Headers */ = {
+		17E2145C6DC89DBA2B624F0BEE3FE246 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF7EFE570025410511637F9F5F1BF14C /* Pods-QTransition_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		66F6AEDA1EE006EC0D238753A62DDAAC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C53A9C12D00B8AD85E578F112A25D8D5 /* QTransition-umbrella.h in Headers */,
+				3A43256D012577C2FF5236F4219B14C5 /* QTransition-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +337,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D2A79738E0E306C4A5FD037957A52B /* Pods-QTransition_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9341E27E3388CE2D4439D2D5C45FD23D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4165B6C7C2FB62300DBB450424F0358A /* Pods-QTransition_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D934D6D54D7F9DAC48081B0D01F97ECC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB67CDDC214C8BF8C4867259B29AE0B3 /* QLayoutor-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,34 +373,33 @@
 			);
 			name = "Pods-QTransition_Tests";
 			productName = "Pods-QTransition_Tests";
-			productReference = 7530BDD4B7C2CF61364CBD9E1398A743 /* Pods_QTransition_Tests.framework */;
+			productReference = 50C4C7BD0B66889E190DE488554D43C9 /* Pods_QTransition_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		138A5B4A83255E163D890CA7E6BA31BF /* Pods-QTransition_Example */ = {
+		318D683439324E51E7BE7E3322CA8664 /* QLayoutor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B4EF44871D6255D4E04E795680E15CA /* Build configuration list for PBXNativeTarget "Pods-QTransition_Example" */;
+			buildConfigurationList = FD4C75B80B4607DB443AC26FEEA129C3 /* Build configuration list for PBXNativeTarget "QLayoutor" */;
 			buildPhases = (
-				D358CFD11FAFAED0045CC75A3813388F /* Sources */,
-				BF86C12150C40B2072D3018F99078D57 /* Frameworks */,
-				210D4E5C2F13C9A1AA77C1A2FAAD90F4 /* Headers */,
+				EB87B771DC3CB8A94E25A4A0FDD6473E /* Sources */,
+				D6766CA50C0AABF1DD254192F4A9E32E /* Frameworks */,
+				D934D6D54D7F9DAC48081B0D01F97ECC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B40B110B613008FE7FF0C550D84CE165 /* PBXTargetDependency */,
 			);
-			name = "Pods-QTransition_Example";
-			productName = "Pods-QTransition_Example";
-			productReference = 361B69B824E1B1B6BD67B5BC8FBFEC69 /* Pods_QTransition_Example.framework */;
+			name = QLayoutor;
+			productName = QLayoutor;
+			productReference = CDC44467D37DBE8CFF413F8B5592349F /* QLayoutor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		84C414B18EAD39FDE8DE77571A3EB3DA /* QTransition */ = {
+		7F4406DF5176C7F0415EE71D0889F933 /* QTransition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9336D6930C91AED3B08A59C4A79B638 /* Build configuration list for PBXNativeTarget "QTransition" */;
+			buildConfigurationList = B8AA3F1C1F208E06B564DCCF045EA1BA /* Build configuration list for PBXNativeTarget "QTransition" */;
 			buildPhases = (
-				9D3AE8451A8587737A652B82A3109B65 /* Sources */,
-				27768ECE0C9D0A4250CED1F1231CCDC0 /* Frameworks */,
-				66F6AEDA1EE006EC0D238753A62DDAAC /* Headers */,
+				DA522D38D4D80EBE41B37F4BE59BA066 /* Sources */,
+				531BC25D0F46BAF18B2D6CF6E346DCCE /* Frameworks */,
+				17E2145C6DC89DBA2B624F0BEE3FE246 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -350,7 +407,26 @@
 			);
 			name = QTransition;
 			productName = QTransition;
-			productReference = EA7A3EFA650420FD62CF843BB919FE63 /* QTransition.framework */;
+			productReference = 9760AF0248FC2FE874681F4AA0F2B57B /* QTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4293CB5D40E29637F9F4886038E6CF9 /* Pods-QTransition_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 552C93FDDEAEA81D90D32441F8FD30E5 /* Build configuration list for PBXNativeTarget "Pods-QTransition_Example" */;
+			buildPhases = (
+				1D7CDD7EACBB7781DCECC258AB0907C8 /* Sources */,
+				672F53AF21EE7079B2AF45C8F5A3B71E /* Frameworks */,
+				9341E27E3388CE2D4439D2D5C45FD23D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1C03AE916E4F05E5A09AC96AEA60D8C /* PBXTargetDependency */,
+				4358D780A3F7FBB488D0546F8A2AEF50 /* PBXTargetDependency */,
+			);
+			name = "Pods-QTransition_Example";
+			productName = "Pods-QTransition_Example";
+			productReference = F48394519B282FE3381DF46E5F4947B8 /* Pods_QTransition_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -360,18 +436,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0910;
-				TargetAttributes = {
-					02530C59F157E307C6C85140EEA7A626 = {
-						LastSwiftMigration = 0910;
-					};
-					138A5B4A83255E163D890CA7E6BA31BF = {
-						LastSwiftMigration = 0910;
-					};
-					84C414B18EAD39FDE8DE77571A3EB3DA = {
-						LastSwiftMigration = 0910;
-					};
-				};
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -381,13 +446,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 04E3176086BCD82279ECD9814CEDAFA7 /* Products */;
+			productRefGroup = EE1AB1369DB0FA58E9AC098D1EF300DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				138A5B4A83255E163D890CA7E6BA31BF /* Pods-QTransition_Example */,
+				C4293CB5D40E29637F9F4886038E6CF9 /* Pods-QTransition_Example */,
 				02530C59F157E307C6C85140EEA7A626 /* Pods-QTransition_Tests */,
-				84C414B18EAD39FDE8DE77571A3EB3DA /* QTransition */,
+				318D683439324E51E7BE7E3322CA8664 /* QLayoutor */,
+				7F4406DF5176C7F0415EE71D0889F933 /* QTransition */,
 			);
 		};
 /* End PBXProject section */
@@ -397,212 +463,68 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				031151101FCC7F9100226D77 /* QSlideInPresentationController.swift in Sources */,
-				031151201FCC823D00226D77 /* QPanInteractionController.swift in Sources */,
-				0311510C1FCC7EB000226D77 /* UIViewController.swift in Sources */,
-				030542CE1FCBB19B001F1923 /* QBaseTransition.swift in Sources */,
-				030542CA1FCBB0F1001F1923 /* QTransition.swift in Sources */,
-				030542D21FCBB212001F1923 /* QTransitionConstant.swift in Sources */,
-				031151181FCC80FA00226D77 /* QPushTransition.swift in Sources */,
-				030542D61FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */,
-				0311511C1FCC81B600226D77 /* QDimmingPresentationController.swift in Sources */,
-				031151141FCC806400226D77 /* QSlideTransition.swift in Sources */,
 				1F33F60391468557ADC129136FD4652F /* Pods-QTransition_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D3AE8451A8587737A652B82A3109B65 /* Sources */ = {
+		1D7CDD7EACBB7781DCECC258AB0907C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				031151111FCC7F9100226D77 /* QSlideInPresentationController.swift in Sources */,
-				031151211FCC823D00226D77 /* QPanInteractionController.swift in Sources */,
-				0311510D1FCC7EB000226D77 /* UIViewController.swift in Sources */,
-				030542CF1FCBB19B001F1923 /* QBaseTransition.swift in Sources */,
-				030542CB1FCBB0F1001F1923 /* QTransition.swift in Sources */,
-				030542D31FCBB212001F1923 /* QTransitionConstant.swift in Sources */,
-				031151191FCC80FA00226D77 /* QPushTransition.swift in Sources */,
-				030542D71FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */,
-				0311511D1FCC81B600226D77 /* QDimmingPresentationController.swift in Sources */,
-				031151151FCC806400226D77 /* QSlideTransition.swift in Sources */,
-				FC5674B7F85C21BB54BBC80D98BE2F34 /* QTransition-dummy.m in Sources */,
+				B7613B2FE84BFC3CE9560B46FE8C2138 /* Pods-QTransition_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D358CFD11FAFAED0045CC75A3813388F /* Sources */ = {
+		DA522D38D4D80EBE41B37F4BE59BA066 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0311510F1FCC7F9100226D77 /* QSlideInPresentationController.swift in Sources */,
-				0311511F1FCC823D00226D77 /* QPanInteractionController.swift in Sources */,
-				0311510B1FCC7EB000226D77 /* UIViewController.swift in Sources */,
-				030542CD1FCBB19B001F1923 /* QBaseTransition.swift in Sources */,
-				030542C91FCBB0F1001F1923 /* QTransition.swift in Sources */,
-				030542D11FCBB212001F1923 /* QTransitionConstant.swift in Sources */,
-				031151171FCC80FA00226D77 /* QPushTransition.swift in Sources */,
-				030542D51FCBB40A001F1923 /* QTransitionDelegate.swift in Sources */,
-				0311511B1FCC81B600226D77 /* QDimmingPresentationController.swift in Sources */,
-				031151131FCC806400226D77 /* QSlideTransition.swift in Sources */,
-				4F7208484CC48D0EFBCFECA93683D4A1 /* Pods-QTransition_Example-dummy.m in Sources */,
+				5B74EE013D644DFAB0E82731192C9F57 /* QBaseTransition.swift in Sources */,
+				9EA97FDE7C660EFA2DF61AD70C7470C2 /* QDimmingPresentationController.swift in Sources */,
+				F00D3417293C1E16A1F8B02610D96E30 /* QPanInteractionController.swift in Sources */,
+				A49E38A645D6A4B8EC2204763CDD8264 /* QPushTransition.swift in Sources */,
+				99D73044BE2ADA8B4311EF5B40E73606 /* QSlideInPresentationController.swift in Sources */,
+				17441E9042F48FCA00B9CCCFC6894C35 /* QSlideTransition.swift in Sources */,
+				3255E54F42F47381CCF4F26A17EA3342 /* QTransition-dummy.m in Sources */,
+				176EC28904604C6352EDB9D46EC70392 /* QTransition.swift in Sources */,
+				197C495DCDD87C77BFFCF06DDC1D735B /* QTransitionConstant.swift in Sources */,
+				7FFA9C415ED86AB6B7D8A0F598F73B32 /* QTransitionDelegate.swift in Sources */,
+				806CB66238F7D7DC485902C35D5FFACB /* UIViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB87B771DC3CB8A94E25A4A0FDD6473E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F220F178824BE60058B5D143B251423 /* QLayoutor-dummy.m in Sources */,
+				8F94C5CA716094D11B184EC0C6673A57 /* QLayoutor.swift in Sources */,
+				5E687F7AE3C1F8F4FA19E0D256DA3415 /* QLayoutorConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B40B110B613008FE7FF0C550D84CE165 /* PBXTargetDependency */ = {
+		4358D780A3F7FBB488D0546F8A2AEF50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QTransition;
-			target = 84C414B18EAD39FDE8DE77571A3EB3DA /* QTransition */;
-			targetProxy = A1FCB1968C7CD69FBB4352376148F5FB /* PBXContainerItemProxy */;
+			target = 7F4406DF5176C7F0415EE71D0889F933 /* QTransition */;
+			targetProxy = 900A60944826E8B8A01E9873FE6B99D0 /* PBXContainerItemProxy */;
+		};
+		A1C03AE916E4F05E5A09AC96AEA60D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QLayoutor;
+			target = 318D683439324E51E7BE7E3322CA8664 /* QLayoutor */;
+			targetProxy = 9FED4E9AFF1D911AFE78AE9A348FDBEC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F35C34935537B64DA6733780A742364 /* Debug */ = {
+		0E6E0015C0FDD1339984ED32C7D71485 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21EA8681D08163FE15A508831837ACA1 /* Pods-QTransition_Tests.debug.xcconfig */;
+			baseConfigurationReference = D9B7180889D0FF1C6174674FEB249F73 /* QTransition.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QTransition_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QTransition_Tests/Pods-QTransition_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_QTransition_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		128895F0CD9074A6AEBC7C098E109134 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDB72897B0222FBDE3A41258C9FD56CF /* Pods-QTransition_Example.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QTransition_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QTransition_Example/Pods-QTransition_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_QTransition_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		23791196FFF4631385EBB2AAE8A7D09A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F6CBB7ECCF6D52FA213C510FA2259EF /* QTransition.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QTransition/QTransition-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QTransition/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QTransition/QTransition.modulemap";
-				PRODUCT_NAME = QTransition;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		290CF0CBA551F2ACB7887C39FF48D22B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EEEBD0C8B41B2A6ED996FB067C8175F /* Pods-QTransition_Tests.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QTransition_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QTransition_Tests/Pods-QTransition_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_QTransition_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3360360B0F6C655514969055040CD417 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F6CBB7ECCF6D52FA213C510FA2259EF /* QTransition.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -630,7 +552,7 @@
 			};
 			name = Debug;
 		};
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -679,7 +601,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -690,7 +612,41 @@
 			};
 			name = Debug;
 		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+		868A2337D41185D1347127C02920E3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB72897B0222FBDE3A41258C9FD56CF /* Pods-QTransition_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTransition_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTransition_Example/Pods-QTransition_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QTransition_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -736,21 +692,83 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		E31049F178899FBA6D64FECB191A3F9F /* Debug */ = {
+		9B2373F7694BD97E7AB02E14F9B5C058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21EA8681D08163FE15A508831837ACA1 /* Pods-QTransition_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTransition_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTransition_Tests/Pods-QTransition_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QTransition_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B7C12E6952B8AA836A684E1EE68A6B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E2F5F4E8399B53729B9D3746C92ED0 /* QLayoutor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QLayoutor/QLayoutor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QLayoutor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QLayoutor/QLayoutor.modulemap";
+				PRODUCT_NAME = QLayoutor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1F9481DEFFA5AB546B7FA98845934E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9DE12C27024A5FD204DF9E9163A78479 /* Pods-QTransition_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -762,7 +780,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-QTransition_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-QTransition_Example/Pods-QTransition_Example.modulemap";
@@ -775,12 +793,107 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		CC32EC011A5D5F1DF344E5C0B4462738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EEEBD0C8B41B2A6ED996FB067C8175F /* Pods-QTransition_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTransition_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTransition_Tests/Pods-QTransition_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QTransition_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CDBC7DC4E3D832AAB15E468546A1B852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E2F5F4E8399B53729B9D3746C92ED0 /* QLayoutor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QLayoutor/QLayoutor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QLayoutor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QLayoutor/QLayoutor.modulemap";
+				PRODUCT_NAME = QLayoutor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDF64D41F7C5BD04FAD1BC57FE848188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B7180889D0FF1C6174674FEB249F73 /* QTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTransition/QTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QTransition/QTransition.modulemap";
+				PRODUCT_NAME = QTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -788,17 +901,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B4EF44871D6255D4E04E795680E15CA /* Build configuration list for PBXNativeTarget "Pods-QTransition_Example" */ = {
+		552C93FDDEAEA81D90D32441F8FD30E5 /* Build configuration list for PBXNativeTarget "Pods-QTransition_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E31049F178899FBA6D64FECB191A3F9F /* Debug */,
-				128895F0CD9074A6AEBC7C098E109134 /* Release */,
+				B1F9481DEFFA5AB546B7FA98845934E1 /* Debug */,
+				868A2337D41185D1347127C02920E3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -806,17 +919,26 @@
 		ACBCF39B7FF62A882F526FE34FC50078 /* Build configuration list for PBXNativeTarget "Pods-QTransition_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F35C34935537B64DA6733780A742364 /* Debug */,
-				290CF0CBA551F2ACB7887C39FF48D22B /* Release */,
+				9B2373F7694BD97E7AB02E14F9B5C058 /* Debug */,
+				CC32EC011A5D5F1DF344E5C0B4462738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9336D6930C91AED3B08A59C4A79B638 /* Build configuration list for PBXNativeTarget "QTransition" */ = {
+		B8AA3F1C1F208E06B564DCCF045EA1BA /* Build configuration list for PBXNativeTarget "QTransition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3360360B0F6C655514969055040CD417 /* Debug */,
-				23791196FFF4631385EBB2AAE8A7D09A /* Release */,
+				0E6E0015C0FDD1339984ED32C7D71485 /* Debug */,
+				FDF64D41F7C5BD04FAD1BC57FE848188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4C75B80B4607DB443AC26FEEA129C3 /* Build configuration list for PBXNativeTarget "QLayoutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBC7DC4E3D832AAB15E468546A1B852 /* Debug */,
+				9B7C12E6952B8AA836A684E1EE68A6B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
