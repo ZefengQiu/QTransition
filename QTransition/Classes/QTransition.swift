@@ -36,6 +36,13 @@ open class QTransition: NSObject {
       transition.direction = .right
       transition.menuWidth = menuWidth
       self.transition = transition
+      
+    /** TO Add New Transition Options:
+       case .newTransitionOption:
+       let transition = NewTransition()
+       transition.specialProperty = value
+       self.transition = transition
+     */
 
     default:
       self.transition = QPushTransition()

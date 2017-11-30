@@ -9,6 +9,7 @@ import UIKit
 
 public class QPanInteractionController: UIPercentDrivenInteractiveTransition {
   
+  // this is flag used in UIViewControllerTransitioningDelegate functions, controller is prsenting or dismissing
   public var isPresenting: Bool = false
   public var gestureEdges: UIRectEdge = .left
   public var inProgress = false

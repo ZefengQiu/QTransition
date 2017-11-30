@@ -59,7 +59,7 @@ open class QBaseTransition: UIPercentDrivenInteractiveTransition, UIViewControll
   
   @objc open func handleDismissPan(recognizer: UIScreenEdgePanGestureRecognizer) {
     let translation = recognizer.translation(in: recognizer.view?.superview)
-    var progress = translation.x / (recognizer.view?.superview?.frame.width)!
+    var progress = translation.x / (recognizer.view?.superview?.frame.width)! // linear progress
     progress = CGFloat(fminf(fmaxf(Float(progress), 0.0), 1.0))
     
     switch recognizer.state {

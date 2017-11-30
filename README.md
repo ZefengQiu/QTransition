@@ -22,7 +22,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-iOS 10 or newer version, Swift 4.
+iOS 10 or newer version, Swift 4. I will be really grateful if you interested in this library and want to contribute, if you interested contribute to this repo, please follow https://github.com/raywenderlich/swift-style-guide Swift coding style.
 
 ## Installation
 
