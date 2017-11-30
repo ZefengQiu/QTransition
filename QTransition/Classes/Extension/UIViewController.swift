@@ -8,11 +8,12 @@
 import UIKit
 
 public extension UIViewController {
+  
   /**
    Present View Controller modally with view transition
    
    - Parameter to: to ViewController
-   - Parameter transition: Q transition
+   - Parameter transition: QTransition
    - Parameter isInteractive: is interactive transition on.
    - Parameter completion: completion handler to notify when present view controller is done.
    */
@@ -29,7 +30,7 @@ public extension UIViewController {
    
    - Parameter navigation: view controlelr's navigation Controller
    - Parameter with: with nav's ViewController
-   - Parameter transition: Q transition
+   - Parameter transition: QTransition
    - Parameter isInteractive: is interactive transition on.
    - Parameter completion: completion handler to notify when present view controller is done.
    */
@@ -45,7 +46,7 @@ public extension UIViewController {
    Present modal view controller interactively using interaction controller.
    
    - Parameter to: to ViewController
-   - Parameter transition: Q transition
+   - Parameter transition: QTransition
    */
   public func setupPresentInteractive(to viewController: UIViewController, transition: QTransition) {
     viewController.modalPresentationStyle = .custom
@@ -57,7 +58,7 @@ public extension UIViewController {
    Present View Controller modally with view transition with navigation controller.
    
    - Parameter to: to ViewController.
-   - Parameter transition: Q transition.
+   - Parameter transition: QTransition.
    - Parameter isInteractive: is interactive transition on.
    - Parameter completion: completion handler to notify when present view controller is done.
    */
@@ -74,9 +75,8 @@ public extension UIViewController {
    Push view controller onto the receiver’s stack and updates the display with view transition.
    
    - Parameter to: to ViewController
-   - Parameter transition: Q transition
    - Parameter isInteractive: is interactive transition on.
-   - Parameter completion: completion handler to notify when present view controller is done.
+   - Parameter transition: QTransition
    */
   public func push(to viewController: UIViewController, isInteractive: Bool, transition: QTransition) {
     if let nav = self.navigationController {
