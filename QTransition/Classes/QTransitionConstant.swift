@@ -18,6 +18,7 @@ public struct QTransitionConstant {
   
   public enum TransitionOptions {
     case push
+    // Top and Bottom has not been implement yet, Slide is mostly for presenting menu 
     case slideLeft
     case slideRight
     case slideTop
