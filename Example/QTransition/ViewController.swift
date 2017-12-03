@@ -12,6 +12,7 @@ import QTransition
 class ViewController: UIViewController {
   
   lazy var transition = QTransition(option: .push)
+  lazy var menuTransition = QTransition(option: .slideLeft, menuWidth: QMenu.sideWidth)
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -21,6 +22,12 @@ class ViewController: UIViewController {
                                target: self,
                                action: #selector(ViewController.presentDemo))
     self.navigationItem.rightBarButtonItem = demo
+    self.setupSideMenu()
+  }
+  
+  override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
   }
   
   @objc private func presentDemo() {
@@ -29,9 +36,11 @@ class ViewController: UIViewController {
     self.present(to: nav, transition: self.transition, isInteractive: true)
   }
   
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+  @objc private func setupSideMenu() {
+    let menu = QMenu()
+    self.menuTransition.interactionController.threshold = 0.25
+    self.menuTransition.interactionController.speed = QMenu.sideWidth
+    self.setupPresentInteractive(to: menu, transition: self.menuTransition)
   }
   
 }
