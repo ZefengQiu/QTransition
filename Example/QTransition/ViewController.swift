@@ -12,7 +12,7 @@ import QTransition
 class ViewController: UIViewController {
   
   lazy var transition = QTransition(option: .push)
-  lazy var menuTransition = QTransition(option: .slideLeft, menuWidth: QMenu.sideWidth)
+  lazy var menuTransition = QTransition(option: .left, menuWidth: QMenu.sideWidth)
   
   override func viewDidLoad() {
     super.viewDidLoad()
