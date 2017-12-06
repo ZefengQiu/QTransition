@@ -11,7 +11,8 @@ import QLayoutor
 
 class QMenu: UIViewController
 {
-  static let sideWidth: CGFloat = 230
+  static let menuWidth: CGFloat = 200
+  static let menuHeight: CGFloat = 250
   
   init() {
     super.init(nibName: nil, bundle: nil)

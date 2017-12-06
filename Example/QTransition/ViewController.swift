@@ -12,7 +12,7 @@ import QTransition
 class ViewController: UIViewController {
   
   lazy var transition = QTransition(option: .push)
-  lazy var menuTransition = QTransition(option: .left, menuWidth: QMenu.sideWidth)
+  lazy var menuTransition = QTransition(option: .top, menuHeight: QMenu.menuHeight)
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
   @objc private func setupSideMenu() {
     let menu = QMenu()
     self.menuTransition.interactionController.threshold = 0.25
-    self.menuTransition.interactionController.speed = QMenu.sideWidth
+    self.menuTransition.interactionController.speed = QMenu.menuHeight
     self.setupPresentInteractive(to: menu, transition: self.menuTransition)
   }
   
