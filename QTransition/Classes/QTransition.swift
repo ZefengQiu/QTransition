@@ -25,7 +25,6 @@ open class QTransition: NSObject {
     self.init()
     
     switch option {
-      
     /** TO Add New Transition Options:
        case .newTransitionOption:
        let transition = NewTransition()
