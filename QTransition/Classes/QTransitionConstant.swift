@@ -16,13 +16,19 @@ public struct QTransitionConstant {
     case bottom
   }
   
-  public enum TransitionOptions {
+  public enum Options {
     case push
-    // Top and Bottom has not been implement yet, Slide is mostly for presenting menu 
-    case slideLeft
-    case slideRight
-    case slideTop
-    case slideBottom
+    
+    public enum HorizontalSlide {
+      case left
+      case right
+    }
+    
+    public enum VerticalSlide {
+      case top
+      case bottom
+    }
+
   }
   
   public static var duration: TimeInterval = 0.36

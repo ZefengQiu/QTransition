@@ -21,22 +21,10 @@ open class QTransition: NSObject {
   var isPresentInteractive: Bool = false
   var isDismissInteractive: Bool = false
   
-  public convenience init(option: QTransitionConstant.TransitionOptions = .push, menuWidth: CGFloat = 0.0) {
+  public convenience init(option: QTransitionConstant.Options = .push) {
     self.init()
     
     switch option {
-    case .slideLeft:
-      let transition = QSlideTransition()
-      transition.direction = .left
-      transition.menuWidth = menuWidth
-      self.transition = transition
-
-    case .slideRight:
-      let transition = QSlideTransition()
-      transition.direction = .right
-      transition.menuWidth = menuWidth
-      self.transition = transition
-      
     /** TO Add New Transition Options:
        case .newTransitionOption:
        let transition = NewTransition()
@@ -47,6 +35,23 @@ open class QTransition: NSObject {
     default:
       self.transition = QPushTransition()
     }
+  }
+  
+  public convenience init(option: QTransitionConstant.Options.HorizontalSlide = .left, menuWidth: CGFloat) {
+    self.init()
+    let transition = QSlideTransition()
+    transition.direction = option == .left ? .left : .right
+    transition.menuWidth = menuWidth
+    self.transition = transition
+  }
+  
+  public convenience init(option: QTransitionConstant.Options.VerticalSlide = .top, menuHeight: CGFloat) {
+    self.init()
+    let transition = QSlideTransition()
+    transition.direction = option == .top ? .top : .bottom
+    transition.menuHeight = menuHeight
+    self.interactionController.gestureEdges = option == .top ? .top : .bottom
+    self.transition = transition
   }
   
   /**

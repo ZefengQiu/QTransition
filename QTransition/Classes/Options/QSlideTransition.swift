@@ -9,8 +9,15 @@ import UIKit
 
 public class QSlideTransition: QBaseTransition {
   
-  /// properties for menu transition
+  //MARK:  properties for menu transition
+  
+  /// menu width is for slide from left and right transition
   public var menuWidth: CGFloat = 0.0
+  
+  /// menu height is for slide from top and bottom transtion
+  public var menuHeight: CGFloat = 0.0
+  
+  /// direction of toVC enter screen
   public var direction: QTransitionConstant.Direction = .left
   
   override public func animateTransition(using transitionContext: UIViewControllerContextTransitioning, fromVC: UIViewController, fromView: UIView, toVC: UIViewController, toView: UIView) {
