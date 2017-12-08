@@ -50,6 +50,7 @@ open class QTransition: NSObject {
     let transition = QSlideTransition()
     transition.direction = option == .top ? .top : .bottom
     transition.menuHeight = menuHeight
+    self.interactionController.gestureEdges = option == .top ? .top : .bottom
     self.transition = transition
   }
   

@@ -48,7 +48,7 @@ public extension UIViewController {
    - Parameter to: to ViewController
    - Parameter transition: QTransition
    */
-  public func setupPresentInteractive(to viewController: UIViewController, transition: QTransition) {
+  public func setupPresentInteractive(to viewController: UIViewController, transition: QTransition, leaveInteractive : Bool = false, enterInteractive: Bool = true) {
     viewController.modalPresentationStyle = .custom
     viewController.transitioningDelegate = transition
     transition.setViewControllers(from: self, to: viewController, leaveInteractive : true, enterInteractive: true)

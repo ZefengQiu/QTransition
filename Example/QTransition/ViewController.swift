@@ -13,6 +13,7 @@ class ViewController: UIViewController {
   
   lazy var transition = QTransition(option: .push)
   lazy var menuTransition = QTransition(option: .top, menuHeight: QMenu.menuHeight)
+  lazy var menu = QMenu()
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -21,7 +22,12 @@ class ViewController: UIViewController {
                                style: .plain,
                                target: self,
                                action: #selector(ViewController.presentDemo))
+    let menu = UIBarButtonItem(title: "MENU",
+                               style: .plain,
+                               target: self,
+                               action: #selector(ViewController.presentMenu))
     self.navigationItem.rightBarButtonItem = demo
+    self.navigationItem.leftBarButtonItem = menu
     self.setupSideMenu()
   }
   
@@ -36,11 +42,15 @@ class ViewController: UIViewController {
     self.present(to: nav, transition: self.transition, isInteractive: true)
   }
   
+  @objc private func presentMenu()
+  {
+    self.present(to: self.menu, transition: self.menuTransition, isInteractive: true)
+  }
+  
   @objc private func setupSideMenu() {
-    let menu = QMenu()
     self.menuTransition.interactionController.threshold = 0.25
     self.menuTransition.interactionController.speed = QMenu.menuHeight
-    self.setupPresentInteractive(to: menu, transition: self.menuTransition)
+    self.setupPresentInteractive(to: self.menu, transition: self.menuTransition, leaveInteractive: true, enterInteractive: false)
   }
   
 }

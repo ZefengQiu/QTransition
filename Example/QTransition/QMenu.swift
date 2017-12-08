@@ -93,8 +93,8 @@ class QMenu: UIViewController
     label.backgroundColor = UIColor.white
     label.translatesAutoresizingMaskIntoConstraints = false
     label.text = "Q"
-    label.layer.cornerRadius = 25
-    label.setWidthHeight(width: 50, height: 50, priority: Priority.max)
+    label.layer.cornerRadius = 10
+    label.setWidthHeight(width: 70, height: 70, priority: Priority.max)
     return label
   }
   
