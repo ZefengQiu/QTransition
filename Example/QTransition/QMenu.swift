@@ -12,7 +12,7 @@ import QLayoutor
 class QMenu: UIViewController
 {
   static let menuWidth: CGFloat = 200
-  static let menuHeight: CGFloat = 250
+  static let menuHeight: CGFloat = 300
   
   init() {
     super.init(nibName: nil, bundle: nil)
@@ -84,6 +84,13 @@ class QMenu: UIViewController
     container.addArrangedSubview(row2)
     
     container.centerOfItsSuperView(self.view)
+    
+    let tap = UITapGestureRecognizer(target: self, action: #selector(QMenu.tapToDismiss))
+    self.view.addGestureRecognizer(tap)
+  }
+  
+  @objc private func tapToDismiss() {
+    self.dismiss(animated: true, completion: nil)
   }
   
   private func createLabel() -> UILabel {
@@ -94,7 +101,7 @@ class QMenu: UIViewController
     label.translatesAutoresizingMaskIntoConstraints = false
     label.text = "Q"
     label.layer.cornerRadius = 10
-    label.setWidthHeight(width: 70, height: 70, priority: Priority.max)
+    label.setWidthHeight(width: 80, height: 80, priority: Priority.max)
     return label
   }
   

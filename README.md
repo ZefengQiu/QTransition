@@ -33,6 +33,9 @@ it, simply add the following line to your Podfile:
 pod 'QTransition'
 ```
 
+## TODO:
+Dynamic duration based on [the Material Design Motion Guide](https://material.io/guidelines/motion/duration-easing.html). Duration is automatically determined by changes to distance and size
+
 ## Author
 
 Zefeng Qiu(Will), z9qiu@uwaterloo.ca
