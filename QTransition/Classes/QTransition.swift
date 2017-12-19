@@ -31,7 +31,9 @@ open class QTransition: NSObject {
        transition.specialProperty = value
        self.transition = transition
      */
-
+    case .fade:
+      self.transition = QFadeTransition()
+    
     default:
       self.transition = QPushTransition()
     }

@@ -33,6 +33,7 @@
 		038CEDB71FE8B70000A99DF1 /* QSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CAEA1ED1B1DFED8A5EDDCCBCB76C2 /* QSlideTransition.swift */; };
 		038CEDB91FE8B73B00A99DF1 /* QFadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038CEDB81FE8B73B00A99DF1 /* QFadeTransition.swift */; };
 		038CEDBA1FE8B73B00A99DF1 /* QFadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038CEDB81FE8B73B00A99DF1 /* QFadeTransition.swift */; };
+		038E43BD1FE8C2750068590D /* QFadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038CEDB81FE8B73B00A99DF1 /* QFadeTransition.swift */; };
 		17441E9042F48FCA00B9CCCFC6894C35 /* QSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CAEA1ED1B1DFED8A5EDDCCBCB76C2 /* QSlideTransition.swift */; };
 		176EC28904604C6352EDB9D46EC70392 /* QTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49BE0BDE29DC918DDD8EC287D3469E6 /* QTransition.swift */; };
 		197C495DCDD87C77BFFCF06DDC1D735B /* QTransitionConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661D7D1F6CB02548C072E4CBE0814000 /* QTransitionConstant.swift */; };
@@ -548,6 +549,7 @@
 				17441E9042F48FCA00B9CCCFC6894C35 /* QSlideTransition.swift in Sources */,
 				3255E54F42F47381CCF4F26A17EA3342 /* QTransition-dummy.m in Sources */,
 				176EC28904604C6352EDB9D46EC70392 /* QTransition.swift in Sources */,
+				038E43BD1FE8C2750068590D /* QFadeTransition.swift in Sources */,
 				197C495DCDD87C77BFFCF06DDC1D735B /* QTransitionConstant.swift in Sources */,
 				7FFA9C415ED86AB6B7D8A0F598F73B32 /* QTransitionDelegate.swift in Sources */,
 				806CB66238F7D7DC485902C35D5FFACB /* UIViewController.swift in Sources */,
