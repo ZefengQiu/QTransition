@@ -18,6 +18,7 @@ public struct QTransitionConstant {
   
   public enum Options {
     case push
+    case fade
     
     public enum HorizontalSlide {
       case left
