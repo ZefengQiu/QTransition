@@ -18,7 +18,6 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    QTransitionConstant.duration = 8.0
     let demo = UIBarButtonItem(title: "DEMO",
                                style: .plain,
                                target: self,
