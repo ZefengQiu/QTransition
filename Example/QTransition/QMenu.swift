@@ -8,11 +8,30 @@
 
 import UIKit
 import QLayoutor
+import QTransition
+
+protocol QMenuDelegate: class {
+  func selectTransition(_ menu: QMenu, transition: QTransition)
+}
 
 class QMenu: UIViewController
 {
+  weak var delegate: QMenuDelegate?
+  
   static let menuWidth: CGFloat = 200
   static let menuHeight: CGFloat = 300
+  let margin: CGFloat = 44
+  
+  private let transitions: [QTransition] = [QTransition(option: .push),
+                                                QTransition(option: .fade)]
+  
+  var tableView: UITableView = {
+    let table = UITableView()
+    table.translatesAutoresizingMaskIntoConstraints = false
+    table.backgroundColor = UIColor.clear
+    table.tableFooterView = UIView(frame: CGRect.zero)
+    return table
+  }()
   
   init() {
     super.init(nibName: nil, bundle: nil)
@@ -25,84 +44,50 @@ class QMenu: UIViewController
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    self.view.backgroundColor = .clear
-    self.setupSideMenu()
+    self.view.backgroundColor = .white
+    self.setupTableView()
   }
   
-  private func setupSideMenu() {
-    let row0 = UIStackView()
-    let row1 = UIStackView()
-    let row2 = UIStackView()
-    let container = UIStackView()
-    
-    container.backgroundColor = UIColor.clear
-    container.axis = .vertical
-    container.spacing = 30
-    container.alignment = .center
-    container.distribution = .fillProportionally
-    container.translatesAutoresizingMaskIntoConstraints = false
-    row0.backgroundColor = UIColor.clear
-    row0.axis = .horizontal
-    row0.spacing = 30
-    row0.alignment = .center
-    row0.distribution = .fillProportionally
-    row0.translatesAutoresizingMaskIntoConstraints = false
-    row1.backgroundColor = UIColor.clear
-    row1.axis = .horizontal
-    row1.spacing = 30
-    row1.alignment = .center
-    row1.distribution = .fillProportionally
-    row1.translatesAutoresizingMaskIntoConstraints = false
-    row2.backgroundColor = UIColor.clear
-    row2.axis = .horizontal
-    row2.spacing = 30
-    row2.alignment = .center
-    row2.distribution = .fillProportionally
-    row2.translatesAutoresizingMaskIntoConstraints = false
-    
-    for _ in 0..<3
-    {
-      let label = self.createLabel()
-      row0.addArrangedSubview(label)
-    }
-    
-    for _ in 0..<3
-    {
-      let label = self.createLabel()
-      row1.addArrangedSubview(label)
-    }
-    
-    for _ in 0..<3
-    {
-      let label = self.createLabel()
-      row2.addArrangedSubview(label)
-    }
-    
-    self.view.addSubview(container)
-    container.addArrangedSubview(row0)
-    container.addArrangedSubview(row1)
-    container.addArrangedSubview(row2)
-    
-    container.centerOfItsSuperView(self.view)
-    
-    let tap = UITapGestureRecognizer(target: self, action: #selector(QMenu.tapToDismiss))
-    self.view.addGestureRecognizer(tap)
+  private func setupTableView() {
+    self.tableView.delegate = self
+    self.tableView.dataSource = self
+    self.view.addSubview(self.tableView)
+    self.tableView.sameLeftRightAroundInSuperView(superview: self.view, padding: 0)
+    self.tableView.setTopLayoutGuide(padding: self.margin, superVC: self)
+    self.tableView.setBottomLayoutGuide(padding: 0, superVC: self)
   }
   
-  @objc private func tapToDismiss() {
-    self.dismiss(animated: true, completion: nil)
+}
+
+extension QMenu: UITableViewDataSource {
+  
+  func numberOfSections(in tableView: UITableView) -> Int {
+    return 1
   }
   
-  private func createLabel() -> UILabel {
-    let label = UILabel()
-    label.clipsToBounds = true
-    label.textAlignment = .center
-    label.backgroundColor = UIColor.white
-    label.translatesAutoresizingMaskIntoConstraints = false
-    label.text = "Q"
-    label.layer.cornerRadius = 10
-    label.setWidthHeight(width: 80, height: 80, priority: Priority.max)
-    return label
+  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return self.transitions.count
+  }
+  
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    switch indexPath.row {
+    case 0:
+      let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
+      cell.textLabel?.text = "push"
+      return cell
+    default:
+      let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
+      cell.textLabel?.text = "fade"
+      return cell 
+    }
+  }
+  
+}
+
+extension QMenu: UITableViewDelegate {
+  
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    self.delegate?.selectTransition(self, transition: self.transitions[indexPath.row])
   }
   
 }
