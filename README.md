@@ -1,6 +1,6 @@
 # QTransition
 
-QTransition library is for easily to add customized view transitioning, in the library including Custom Presentation Controller, UINavigationController Custom Transition, Interactive UINavigationController Transitions. For detail how to use this library, please check Example project.
+QTransition library is for easily to add customized view transitioning, in the library including Custom Presentation Controller, UINavigationController Custom Transition, Interactive UINavigationController Transitions. For detail how to use this library, please check Example project. Plus, this library provide a way to use view transition to present Menu.
 
 ## Motivation
 
