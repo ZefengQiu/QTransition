@@ -14,16 +14,20 @@ public class QFadeTransition: QBaseTransition {
     let containerView = transitionContext.containerView
     self.isPresenting ? containerView.addSubview(toView) : containerView.addSubview(fromView)
     self.isPresenting ? containerView.bringSubview(toFront: toView) : containerView.bringSubview(toFront: fromView)
+    toView.alpha = 0
     
     UIView.animate(withDuration: duration,
                    delay: 0.0,
                    options: .curveLinear,
                    animations: {
-                    fromView.alpha = self.isPresenting ? 1 : 0
-                    toView.alpha = self.isPresenting ? 0 : 1
+                    fromView.alpha = 0
+                    toView.alpha = 1
     }, completion: { _ in
-      fromView.alpha = self.isPresenting ? 0 : 1
-      toView.alpha = self.isPresenting ? 1 : 0
+      if transitionContext.transitionWasCancelled {
+        transitionContext.completeTransition(false)
+      }else {
+        transitionContext.completeTransition(true)
+      }
     })
   }
   
