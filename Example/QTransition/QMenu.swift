@@ -23,7 +23,8 @@ class QMenu: UIViewController
   let margin: CGFloat = 44
   
   private let transitions: [QTransition] = [QTransition(option: .push),
-                                                QTransition(option: .fade)]
+                                            QTransition(option: .fade),
+                                            QTransition(option: .zoom)]
   
   var tableView: UITableView = {
     let table = UITableView()
@@ -70,15 +71,17 @@ extension QMenu: UITableViewDataSource {
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
     switch indexPath.row {
     case 0:
-      let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
       cell.textLabel?.text = "push"
       return cell
-    default:
-      let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
+    case 1:
       cell.textLabel?.text = "fade"
-      return cell 
+      return cell
+    default:
+      cell.textLabel?.text = "zoom"
+      return cell
     }
   }
   

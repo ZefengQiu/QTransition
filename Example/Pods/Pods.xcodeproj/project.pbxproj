@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		020BE5880F0D93D56716193CDD9D7DAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		038B8F381FEF169200A2091B /* QZoomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B8F371FEF169200A2091B /* QZoomTransition.swift */; };
+		038B8F391FEF179100A2091B /* QZoomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B8F371FEF169200A2091B /* QZoomTransition.swift */; };
+		038B8F3A1FEF179100A2091B /* QZoomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B8F371FEF169200A2091B /* QZoomTransition.swift */; };
 		038CEDA11FE8B5EF00A99DF1 /* QSlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038CED9D1FE8B5EF00A99DF1 /* QSlideInPresentationController.swift */; };
 		038CEDA21FE8B5EF00A99DF1 /* QSlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038CED9D1FE8B5EF00A99DF1 /* QSlideInPresentationController.swift */; };
 		038CEDA31FE8B5EF00A99DF1 /* QDimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038CED9E1FE8B5EF00A99DF1 /* QDimmingPresentationController.swift */; };
@@ -76,6 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		038B8F371FEF169200A2091B /* QZoomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QZoomTransition.swift; sourceTree = "<group>"; };
 		038CED9D1FE8B5EF00A99DF1 /* QSlideInPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSlideInPresentationController.swift; sourceTree = "<group>"; };
 		038CED9E1FE8B5EF00A99DF1 /* QDimmingPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QDimmingPresentationController.swift; sourceTree = "<group>"; };
 		038CEDA01FE8B5EF00A99DF1 /* QPanInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPanInteractionController.swift; sourceTree = "<group>"; };
@@ -322,6 +326,7 @@
 				804869F3588A828372F2800EEFB8D3BB /* QPushTransition.swift */,
 				F48CAEA1ED1B1DFED8A5EDDCCBCB76C2 /* QSlideTransition.swift */,
 				038CEDB81FE8B73B00A99DF1 /* QFadeTransition.swift */,
+				038B8F371FEF169200A2091B /* QZoomTransition.swift */,
 			);
 			name = Options;
 			path = QTransition/Classes/Options;
@@ -509,6 +514,7 @@
 				038CEDB21FE8B6F100A99DF1 /* UIViewController.swift in Sources */,
 				038CEDAA1FE8B6DF00A99DF1 /* QTransitionConstant.swift in Sources */,
 				038CEDB11FE8B6EE00A99DF1 /* QTransitionDelegate.swift in Sources */,
+				038B8F391FEF179100A2091B /* QZoomTransition.swift in Sources */,
 				038CEDA21FE8B5EF00A99DF1 /* QSlideInPresentationController.swift in Sources */,
 				038CEDAE1FE8B6E600A99DF1 /* QBaseTransition.swift in Sources */,
 				038CEDBA1FE8B73B00A99DF1 /* QFadeTransition.swift in Sources */,
@@ -528,6 +534,7 @@
 				038CEDB31FE8B6F200A99DF1 /* UIViewController.swift in Sources */,
 				038CEDAB1FE8B6DF00A99DF1 /* QTransitionConstant.swift in Sources */,
 				038CEDB01FE8B6ED00A99DF1 /* QTransitionDelegate.swift in Sources */,
+				038B8F381FEF169200A2091B /* QZoomTransition.swift in Sources */,
 				038CEDA11FE8B5EF00A99DF1 /* QSlideInPresentationController.swift in Sources */,
 				038CEDAF1FE8B6E600A99DF1 /* QBaseTransition.swift in Sources */,
 				038CEDB91FE8B73B00A99DF1 /* QFadeTransition.swift in Sources */,
@@ -547,6 +554,7 @@
 				A49E38A645D6A4B8EC2204763CDD8264 /* QPushTransition.swift in Sources */,
 				038CEDA71FE8B6C700A99DF1 /* QPanInteractionController.swift in Sources */,
 				17441E9042F48FCA00B9CCCFC6894C35 /* QSlideTransition.swift in Sources */,
+				038B8F3A1FEF179100A2091B /* QZoomTransition.swift in Sources */,
 				3255E54F42F47381CCF4F26A17EA3342 /* QTransition-dummy.m in Sources */,
 				176EC28904604C6352EDB9D46EC70392 /* QTransition.swift in Sources */,
 				038E43BD1FE8C2750068590D /* QFadeTransition.swift in Sources */,

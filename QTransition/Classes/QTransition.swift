@@ -33,6 +33,9 @@ open class QTransition: NSObject {
      */
     case .fade:
       self.transition = QFadeTransition()
+      
+    case .zoom:
+      self.transition = QZoomTransition()
     
     default:
       self.transition = QPushTransition()
