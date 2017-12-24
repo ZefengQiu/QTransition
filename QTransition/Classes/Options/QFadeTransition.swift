@@ -12,8 +12,12 @@ public class QFadeTransition: QBaseTransition {
   override public func animateTransition(using transitionContext: UIViewControllerContextTransitioning, fromVC: UIViewController, fromView: UIView, toVC: UIViewController, toView: UIView) {
     let duration = self.transitionDuration(using: transitionContext)
     let containerView = transitionContext.containerView
-    self.isPresenting ? containerView.addSubview(toView) : containerView.addSubview(fromView)
-    self.isPresenting ? containerView.bringSubview(toFront: toView) : containerView.bringSubview(toFront: fromView)
+    if self.isPresenting {
+      containerView.addSubview(toView)
+    } else {
+      containerView.addSubview(fromView)
+    }
+   
     toView.alpha = 0
     
     UIView.animate(withDuration: duration,

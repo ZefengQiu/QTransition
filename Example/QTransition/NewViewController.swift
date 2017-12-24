@@ -27,7 +27,7 @@ class NewViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    self.view.backgroundColor = UIColor.white
+    self.view.backgroundColor = .white
     let square = UIView()
     square.layer.cornerRadius = 5.0
     square.backgroundColor = UIColor.random()
