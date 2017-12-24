@@ -12,9 +12,11 @@ import QTransition
 
 class NewViewController: UIViewController {
   
-  lazy var transition = QTransition(option: .push)
+  var transition: QTransition
   
-  init() {
+  init(transition: QTransition) {
+    self.transition = transition
+    
     super.init(nibName: nil, bundle: nil)
   }
   
@@ -25,7 +27,7 @@ class NewViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    self.view.backgroundColor = UIColor.white
+    self.view.backgroundColor = .white
     let square = UIView()
     square.layer.cornerRadius = 5.0
     square.backgroundColor = UIColor.random()
@@ -48,7 +50,7 @@ class NewViewController: UIViewController {
   }
   
   @objc private func presentDemo() {
-    let newVC = NewViewController()
+    let newVC = NewViewController(transition: self.transition)
     let nav = UINavigationController(rootViewController: newVC)
     self.present(to: nav, transition: self.transition, isInteractive: true)
   }

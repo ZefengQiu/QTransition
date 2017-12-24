@@ -16,6 +16,10 @@ Welcome to folk this repo and add more cool view transitioning effects.
 2. And then a new case in `TransitionOptions` enum,;
 3. Finally, under `QTransition`  convenience initializer, switch block, create a new case and point `self.transition` to your own custom view transitioning instance.
 
+## Note
+
+1.  `fromView` is a view which visible at the beginning; `toView` is a view which visiable at the end;
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
