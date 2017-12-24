@@ -25,7 +25,7 @@ class QMenu: UIViewController
   private let transitions: [QTransition] = [QTransition(option: .push),
                                             QTransition(option: .fade),
                                             QTransition(option: .zoom),
-                                            QTransition(option: .zoomSlide)]
+                                            QTransition(slideDirection: .left)]
   
   var tableView: UITableView = {
     let table = UITableView()

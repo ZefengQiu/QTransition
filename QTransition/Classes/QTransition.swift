@@ -37,9 +37,6 @@ open class QTransition: NSObject {
       
     case .zoom:
       self.transition = QZoomTransition()
-    
-    case .zoomSlide:
-      self.transition = QZoomSlideTransition()
       
     default:
       self.transition = QPushTransition()
@@ -63,7 +60,7 @@ open class QTransition: NSObject {
     self.transition = transition
   }
   
-  public convenience init(slideDirection: QTransitionConstant.Direction, zoomScale: CGFloat = 0.7) {
+  public convenience init(slideDirection: QTransitionConstant.Options.ZoomSlide, zoomScale: CGFloat = 0.7) {
     self.init()
     let transition = QZoomSlideTransition()
     transition.direction = slideDirection

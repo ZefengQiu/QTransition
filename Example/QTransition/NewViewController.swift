@@ -31,7 +31,7 @@ class NewViewController: UIViewController {
     
     self.title = "# \(NewViewController.numOfNewVC) VC"
     NewViewController.numOfNewVC += 1
-    self.view.backgroundColor = .white
+    self.view.backgroundColor = UIColor.lightGray
     let square = UIView()
     square.layer.cornerRadius = 5.0
     square.backgroundColor = UIColor.random()

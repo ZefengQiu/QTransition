@@ -9,7 +9,7 @@ import UIKit
 
 public class QZoomSlideTransition: QBaseTransition {
   
-  public var direction: QTransitionConstant.Direction = .left
+  public var direction: QTransitionConstant.Options.ZoomSlide = .left
   public var zoomScale: CGFloat = 0.6
   
   override public func animateTransition(using transitionContext: UIViewControllerContextTransitioning, fromVC: UIViewController, fromView: UIView, toVC: UIViewController, toView: UIView) {
@@ -34,9 +34,11 @@ public class QZoomSlideTransition: QBaseTransition {
       dismissedFrame.origin.x = containerView.frame.size.width
       dismissedFrame.origin.y = presentedFrame.height * (1 - self.zoomScale) / 2
     case .top:
-      dismissedFrame.origin.y = -presentedFrame.height
+      dismissedFrame.origin.y = -presentedFrame.height * self.zoomScale
+      dismissedFrame.origin.x = presentedFrame.width * (1 - self.zoomScale) / 2
     case .bottom:
-      dismissedFrame.origin.y = containerView.frame.size.height
+      dismissedFrame.origin.y = containerView.frame.size.height * self.zoomScale
+      dismissedFrame.origin.x = presentedFrame.width * (1 - self.zoomScale) / 2
     }
     
     let initalFrame = self.isPresenting ? dismissedFrame : presentedFrame
