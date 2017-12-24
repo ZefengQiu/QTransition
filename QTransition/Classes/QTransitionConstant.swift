@@ -40,7 +40,7 @@ public struct QTransitionConstant {
 
   }
   
-  public static var duration: TimeInterval = 0.30
+  public static var duration: TimeInterval = 0.20
   public static var dimmingAlpha: CGFloat = 0.5
   
 }

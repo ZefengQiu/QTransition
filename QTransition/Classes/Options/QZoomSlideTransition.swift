@@ -30,17 +30,37 @@ public class QZoomSlideTransition: QBaseTransition {
     
     switch self.direction {
     case .left:
-      dismissedFrame.origin.x = -presentedFrame.width * self.zoomScale
-      dismissedFrame.origin.y = presentedFrame.height * (1 - self.zoomScale) / 2.0
+      if self.isPresenting {
+        dismissedFrame.origin.x = -presentedFrame.width * self.zoomScale
+        dismissedFrame.origin.y = presentedFrame.height * (1 - self.zoomScale) / 2.0
+      } else {
+        dismissedFrame.origin.x = -presentedFrame.width
+        dismissedFrame.origin.y = 0
+      }
     case .right:
-      dismissedFrame.origin.x = containerView.frame.size.width
-      dismissedFrame.origin.y = presentedFrame.height * (1 - self.zoomScale) / 2.0
+      if self.isPresenting {
+        dismissedFrame.origin.x = containerView.frame.size.width
+        dismissedFrame.origin.y = presentedFrame.height * (1 - self.zoomScale) / 2.0
+      } else {
+        dismissedFrame.origin.x = containerView.frame.size.width
+        dismissedFrame.origin.y = 0
+      }
     case .top:
-      dismissedFrame.origin.y = -presentedFrame.height * self.zoomScale
-      dismissedFrame.origin.x = presentedFrame.width * (1 - self.zoomScale) / 2.0
+      if self.isPresenting {
+        dismissedFrame.origin.y = -presentedFrame.height * self.zoomScale
+        dismissedFrame.origin.x = presentedFrame.width * (1 - self.zoomScale) / 2.0
+      } else {
+        dismissedFrame.origin.y = -presentedFrame.height
+        dismissedFrame.origin.x = 0
+      }
     case .bottom:
-      dismissedFrame.origin.y = containerView.frame.size.height * self.zoomScale
-      dismissedFrame.origin.x = presentedFrame.width * (1 - self.zoomScale) / 2.0
+      if self.isPresenting {
+        dismissedFrame.origin.y = containerView.frame.size.height
+        dismissedFrame.origin.x = presentedFrame.width * (1 - self.zoomScale) / 2.0
+      } else {
+        dismissedFrame.origin.y = containerView.frame.size.height
+        dismissedFrame.origin.x = 0
+      }
     }
   
     let initalFrame = self.isPresenting ? dismissedFrame : presentedFrame
