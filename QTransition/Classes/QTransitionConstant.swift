@@ -30,6 +30,13 @@ public struct QTransitionConstant {
       case top
       case bottom
     }
+    
+    public enum ZoomSlide {
+      case left
+      case right
+      case top
+      case bottom
+    }
 
   }
   

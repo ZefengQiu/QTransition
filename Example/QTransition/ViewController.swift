@@ -11,7 +11,7 @@ import QTransition
 
 class ViewController: UIViewController {
   
-  lazy var transition = QTransition(option: .push)
+  lazy var transition = QTransition(option: .zoomSlide)
   lazy var menuTransition = QTransition(option: .left, menuWidth: QMenu.menuWidth)
   lazy var menu = QMenu()
   
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     
     //FOR: Inspect view transition
-//    QTransitionConstant.duration = 1.8
+    //QTransitionConstant.duration = 2.8
     let demo = UIBarButtonItem(title: "DEMO",
                                style: .plain,
                                target: self,
