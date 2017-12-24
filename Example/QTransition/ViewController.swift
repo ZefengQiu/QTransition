@@ -11,7 +11,7 @@ import QTransition
 
 class ViewController: UIViewController {
   
-  lazy var transition = QTransition(slideDirection: .top)
+  lazy var transition = QTransition(slideDirection: .left)
   lazy var menuTransition = QTransition(option: .left, menuWidth: QMenu.menuWidth)
   lazy var menu = QMenu()
   
