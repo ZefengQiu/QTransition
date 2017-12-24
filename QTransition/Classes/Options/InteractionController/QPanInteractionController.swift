@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class QPanInteractionController: UIPercentDrivenInteractiveTransition {
+open class QPanInteractionController: UIPercentDrivenInteractiveTransition {
   
   // this is flag used in UIViewControllerTransitioningDelegate functions, controller is prsenting or dismissing
   public var isPresenting: Bool = false
@@ -15,7 +15,7 @@ public class QPanInteractionController: UIPercentDrivenInteractiveTransition {
   public var inProgress = false
   public var threshold: CGFloat = 0.3
   // note: best speed is equal to presenting vc view width
-  public var speed: CGFloat?
+  public var speed: CGFloat!
   
   private var shouldCompleteTransition: Bool = false
   private var isPresentWithGesture: Bool = false
@@ -23,7 +23,7 @@ public class QPanInteractionController: UIPercentDrivenInteractiveTransition {
   private weak var toVC: UIViewController!
   
   /**
-   Wire from view controller and adding screen edge pan gesture recognizer.
+   Wire from view controller and adding screen edge pan gesture recognizer. This function must be used when want to dismiss view controller interactively with pan gesture.
    
    - Parameter viewController: from view controller.
    */
@@ -48,11 +48,11 @@ public class QPanInteractionController: UIPercentDrivenInteractiveTransition {
   public func calculateInteractionProgress(translation: CGPoint) -> CGFloat {
     var progress: CGFloat = 0.0
     if self.gestureEdges == .right {
-      progress = translation.x / self.speed! * -1
+      progress = translation.x / self.speed * -1
     }
     
     if self.gestureEdges == .left {
-      progress = translation.x / self.speed!
+      progress = translation.x / self.speed
     }
     
     if self.isPresentWithGesture {
@@ -132,7 +132,9 @@ public class QPanInteractionController: UIPercentDrivenInteractiveTransition {
 }
 
 extension QPanInteractionController: UIGestureRecognizerDelegate {
+  
   public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
     return true
   }
+  
 }

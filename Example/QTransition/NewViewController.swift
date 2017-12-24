@@ -14,6 +14,8 @@ class NewViewController: UIViewController {
   
   var transition: QTransition
   
+  static var numOfNewVC: Int = 0
+  
   init(transition: QTransition) {
     self.transition = transition
     
@@ -27,6 +29,8 @@ class NewViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    self.title = "# \(NewViewController.numOfNewVC) VC"
+    NewViewController.numOfNewVC += 1
     self.view.backgroundColor = .white
     let square = UIView()
     square.layer.cornerRadius = 5.0

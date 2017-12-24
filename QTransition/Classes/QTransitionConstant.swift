@@ -33,8 +33,24 @@ public struct QTransitionConstant {
 
   }
   
-  public static var duration: TimeInterval = 0.36
+  public static var duration: TimeInterval = 0.30
   public static var dimmingAlpha: CGFloat = 0.5
   
+}
+
+enum LogType {
+  case message, error, warning
+}
+
+func QLog(_ msg: String, type: LogType = .message) {
+  switch type {
+  case .message:
+    print("---\(msg)---")
+  case .warning:
+    print("Warning: ###\(msg)###")
+  default:
+    print("Error: XXX\(msg)XXX")
+  }
+
 }
 

@@ -8,6 +8,7 @@
 import UIKit
 
 public final class QSlideInPresentationController: UIPresentationController {
+  
   var dimmingView: UIView = UIView()
   var dimmingAlpha: CGFloat = QTransitionConstant.dimmingAlpha
   var direction: QTransitionConstant.Direction
@@ -24,10 +25,11 @@ public final class QSlideInPresentationController: UIPresentationController {
     case .right:
       frame.origin.x = (containerView?.frame.width)! - self.menuWidth
     case .bottom:
-      frame.origin.y = containerView!.frame.height*(1.0/3.0)
+      frame.origin.y = containerView!.frame.height * (1.0/3.0)
     default:
       frame.origin = .zero
     }
+    
     return frame
   }
   

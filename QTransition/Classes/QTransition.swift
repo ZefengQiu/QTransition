@@ -18,6 +18,7 @@ open class QTransition: NSObject {
   public var transition: QBaseTransition?
   
   public lazy var interactionController: QPanInteractionController = QPanInteractionController()
+  
   var isPresentInteractive: Bool = false
   var isDismissInteractive: Bool = false
   
