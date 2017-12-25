@@ -24,7 +24,11 @@ class QMenu: UIViewController
   
   private let transitions: [QTransition] = [QTransition(option: .push),
                                             QTransition(option: .fade),
-                                            QTransition(option: .zoom)]
+                                            QTransition(option: .zoom),
+                                            QTransition(slideDirection: .left),
+                                            QTransition(slideDirection: .right),
+                                            QTransition(slideDirection: .top),
+                                            QTransition(slideDirection: .bottom)]
   
   var tableView: UITableView = {
     let table = UITableView()
@@ -79,8 +83,20 @@ extension QMenu: UITableViewDataSource {
     case 1:
       cell.textLabel?.text = "fade"
       return cell
-    default:
+    case 2:
       cell.textLabel?.text = "zoom"
+      return cell
+    case 3:
+      cell.textLabel?.text = "zoom slide left"
+      return cell
+    case 4:
+      cell.textLabel?.text = "zoom slide right"
+      return cell
+    case 5:
+      cell.textLabel?.text = "zoom slide top"
+      return cell
+    default:
+      cell.textLabel?.text = "zoom slide bottom"
       return cell
     }
   }

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QTransition'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A Library help in view transitioning in iOS.'
   s.homepage         = 'https://github.com/ZefengQiu/QTransition'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

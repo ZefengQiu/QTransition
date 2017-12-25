@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		020BE5880F0D93D56716193CDD9D7DAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		036B97411FEF9BA300C1ABFE /* QZoomSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B97401FEF9BA300C1ABFE /* QZoomSlideTransition.swift */; };
+		036B97421FEF9BA700C1ABFE /* QZoomSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B97401FEF9BA300C1ABFE /* QZoomSlideTransition.swift */; };
+		036B97431FEF9BA800C1ABFE /* QZoomSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B97401FEF9BA300C1ABFE /* QZoomSlideTransition.swift */; };
 		038B8F381FEF169200A2091B /* QZoomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B8F371FEF169200A2091B /* QZoomTransition.swift */; };
 		038B8F391FEF179100A2091B /* QZoomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B8F371FEF169200A2091B /* QZoomTransition.swift */; };
 		038B8F3A1FEF179100A2091B /* QZoomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B8F371FEF169200A2091B /* QZoomTransition.swift */; };
@@ -79,6 +82,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		036B97401FEF9BA300C1ABFE /* QZoomSlideTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QZoomSlideTransition.swift; sourceTree = "<group>"; };
 		038B8F371FEF169200A2091B /* QZoomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QZoomTransition.swift; sourceTree = "<group>"; };
 		038CED9D1FE8B5EF00A99DF1 /* QSlideInPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSlideInPresentationController.swift; sourceTree = "<group>"; };
 		038CED9E1FE8B5EF00A99DF1 /* QDimmingPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QDimmingPresentationController.swift; sourceTree = "<group>"; };
@@ -327,6 +331,7 @@
 				F48CAEA1ED1B1DFED8A5EDDCCBCB76C2 /* QSlideTransition.swift */,
 				038CEDB81FE8B73B00A99DF1 /* QFadeTransition.swift */,
 				038B8F371FEF169200A2091B /* QZoomTransition.swift */,
+				036B97401FEF9BA300C1ABFE /* QZoomSlideTransition.swift */,
 			);
 			name = Options;
 			path = QTransition/Classes/Options;
@@ -519,6 +524,7 @@
 				038CEDAE1FE8B6E600A99DF1 /* QBaseTransition.swift in Sources */,
 				038CEDBA1FE8B73B00A99DF1 /* QFadeTransition.swift in Sources */,
 				038CEDA61FE8B5EF00A99DF1 /* QPanInteractionController.swift in Sources */,
+				036B97421FEF9BA700C1ABFE /* QZoomSlideTransition.swift in Sources */,
 				038CEDB61FE8B70000A99DF1 /* QSlideTransition.swift in Sources */,
 				1F33F60391468557ADC129136FD4652F /* Pods-QTransition_Tests-dummy.m in Sources */,
 			);
@@ -539,6 +545,7 @@
 				038CEDAF1FE8B6E600A99DF1 /* QBaseTransition.swift in Sources */,
 				038CEDB91FE8B73B00A99DF1 /* QFadeTransition.swift in Sources */,
 				038CEDA51FE8B5EF00A99DF1 /* QPanInteractionController.swift in Sources */,
+				036B97411FEF9BA300C1ABFE /* QZoomSlideTransition.swift in Sources */,
 				038CEDB71FE8B70000A99DF1 /* QSlideTransition.swift in Sources */,
 				B7613B2FE84BFC3CE9560B46FE8C2138 /* Pods-QTransition_Example-dummy.m in Sources */,
 			);
@@ -559,6 +566,7 @@
 				176EC28904604C6352EDB9D46EC70392 /* QTransition.swift in Sources */,
 				038E43BD1FE8C2750068590D /* QFadeTransition.swift in Sources */,
 				197C495DCDD87C77BFFCF06DDC1D735B /* QTransitionConstant.swift in Sources */,
+				036B97431FEF9BA800C1ABFE /* QZoomSlideTransition.swift in Sources */,
 				7FFA9C415ED86AB6B7D8A0F598F73B32 /* QTransitionDelegate.swift in Sources */,
 				806CB66238F7D7DC485902C35D5FFACB /* UIViewController.swift in Sources */,
 			);

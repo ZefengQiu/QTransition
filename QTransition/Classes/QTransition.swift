@@ -18,6 +18,7 @@ open class QTransition: NSObject {
   public var transition: QBaseTransition?
   
   public lazy var interactionController: QPanInteractionController = QPanInteractionController()
+  
   var isPresentInteractive: Bool = false
   var isDismissInteractive: Bool = false
   
@@ -36,7 +37,7 @@ open class QTransition: NSObject {
       
     case .zoom:
       self.transition = QZoomTransition()
-    
+      
     default:
       self.transition = QPushTransition()
     }
@@ -56,6 +57,14 @@ open class QTransition: NSObject {
     transition.direction = option == .top ? .top : .bottom
     transition.menuHeight = menuHeight
     self.interactionController.gestureEdges = option == .top ? .top : .bottom
+    self.transition = transition
+  }
+  
+  public convenience init(slideDirection: QTransitionConstant.Options.ZoomSlide, zoomScale: CGFloat = 0.7) {
+    self.init()
+    let transition = QZoomSlideTransition()
+    transition.direction = slideDirection
+    transition.zoomScale = zoomScale
     self.transition = transition
   }
   

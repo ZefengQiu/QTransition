@@ -13,11 +13,11 @@ open class QBaseTransition: UIPercentDrivenInteractiveTransition, UIViewControll
   public var operation: UINavigationControllerOperation?
   
   /// properties for interactive transition
-  public var gestureEdge: UIRectEdge = .left
-  public var inProgress: Bool = false
+  public lazy var gestureEdge: UIRectEdge = .left
+  public lazy var inProgress: Bool = false
   public var navigationController: UINavigationController?
-  private var shouldCompleteTransition = false
-  private weak var viewController: UIViewController!
+  private lazy var shouldCompleteTransition = false
+  private weak var viewController: UIViewController?
   
   public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
     return QTransitionConstant.duration
@@ -25,11 +25,25 @@ open class QBaseTransition: UIPercentDrivenInteractiveTransition, UIViewControll
   
   public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
     // fromVC is always the view controller which is going to dismiss
-    guard let fromVC = transitionContext.viewController(forKey: .from) else { return }
+    guard let fromVC = transitionContext.viewController(forKey: .from) else {
+      QLog("Key for from view controller is nil", type: .error)
+      return
+    }
     //toVC is the view controller which is going to be presented
-    guard let toVC = transitionContext.viewController(forKey: .to) else { return }
-    guard let fromView = fromVC.view else { return }
-    guard let toView = toVC.view else { return }
+    guard let toVC = transitionContext.viewController(forKey: .to) else {
+      QLog("Key for to view controller is nil", type: .error)
+      return
+    }
+    
+    guard let fromView = fromVC.view else {
+      QLog("view of from view controller is nil", type: .error)
+      return
+    }
+    
+    guard let toView = toVC.view else {
+      QLog("view of to view controller is nil", type: .error)
+      return
+    }
     
     self.animateTransition(using: transitionContext, fromVC: fromVC, fromView: fromView, toVC: toVC, toView: toView)
   }
@@ -52,14 +66,21 @@ open class QBaseTransition: UIPercentDrivenInteractiveTransition, UIViewControll
   open func wireToDismiss(viewController: UIViewController, with navigationController: UINavigationController?) {
     self.viewController = viewController
     self.navigationController = navigationController
-    let gesture = UIScreenEdgePanGestureRecognizer(target: self, action: #selector(QPushTransition.handleDismissPan(recognizer:)))
+    let gesture = UIScreenEdgePanGestureRecognizer(target: self,
+                                                   action: #selector(QPushTransition.handleDismissPan(recognizer:)))
     gesture.edges = self.gestureEdge
-    self.viewController.view.addGestureRecognizer(gesture)
+    self.viewController?.view.addGestureRecognizer(gesture)
   }
   
   @objc open func handleDismissPan(recognizer: UIScreenEdgePanGestureRecognizer) {
     let translation = recognizer.translation(in: recognizer.view?.superview)
-    var progress = translation.x / (recognizer.view?.superview?.frame.width)! // linear progress
+    guard let width = recognizer.view?.superview?.frame.width else {
+      QLog("recognizer view's super view width is nil", type: .warning)
+      return
+    }
+    
+    // linear progress in interactive process
+    var progress = translation.x / width
     progress = CGFloat(fminf(fmaxf(Float(progress), 0.0), 1.0))
     
     switch recognizer.state {
@@ -86,6 +107,7 @@ open class QBaseTransition: UIPercentDrivenInteractiveTransition, UIViewControll
     default:
       break
     }
+    
   }
   
 }
