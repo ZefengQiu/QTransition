@@ -37,6 +37,13 @@ public struct QTransitionConstant {
       case top
       case bottom
     }
+    
+    public enum Page {
+      case left
+      case right
+      case top
+      case bottom
+    }
 
   }
   
