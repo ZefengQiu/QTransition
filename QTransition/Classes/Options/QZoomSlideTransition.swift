@@ -37,6 +37,7 @@ public class QZoomSlideTransition: QBaseTransition {
         dismissedFrame.origin.x = -presentedFrame.width
         dismissedFrame.origin.y = 0
       }
+      
     case .right:
       if self.isPresenting {
         dismissedFrame.origin.x = containerView.frame.size.width
@@ -45,6 +46,7 @@ public class QZoomSlideTransition: QBaseTransition {
         dismissedFrame.origin.x = containerView.frame.size.width
         dismissedFrame.origin.y = 0
       }
+      
     case .top:
       if self.isPresenting {
         dismissedFrame.origin.y = -presentedFrame.height * self.zoomScale
@@ -53,6 +55,7 @@ public class QZoomSlideTransition: QBaseTransition {
         dismissedFrame.origin.y = -presentedFrame.height
         dismissedFrame.origin.x = 0
       }
+      
     case .bottom:
       if self.isPresenting {
         dismissedFrame.origin.y = containerView.frame.size.height

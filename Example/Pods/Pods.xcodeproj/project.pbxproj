@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		020BE5880F0D93D56716193CDD9D7DAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		03158CA91FFF2ECC0025AC3F /* QPageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03158CA81FFF2ECC0025AC3F /* QPageTransition.swift */; };
+		033874C12005466A00A1173D /* QPageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03158CA81FFF2ECC0025AC3F /* QPageTransition.swift */; };
+		033874C22005466B00A1173D /* QPageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03158CA81FFF2ECC0025AC3F /* QPageTransition.swift */; };
 		036B97411FEF9BA300C1ABFE /* QZoomSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B97401FEF9BA300C1ABFE /* QZoomSlideTransition.swift */; };
 		036B97421FEF9BA700C1ABFE /* QZoomSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B97401FEF9BA300C1ABFE /* QZoomSlideTransition.swift */; };
 		036B97431FEF9BA800C1ABFE /* QZoomSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B97401FEF9BA300C1ABFE /* QZoomSlideTransition.swift */; };
@@ -522,6 +524,7 @@
 				038CEDB21FE8B6F100A99DF1 /* UIViewController.swift in Sources */,
 				038CEDAA1FE8B6DF00A99DF1 /* QTransitionConstant.swift in Sources */,
 				038CEDB11FE8B6EE00A99DF1 /* QTransitionDelegate.swift in Sources */,
+				033874C22005466B00A1173D /* QPageTransition.swift in Sources */,
 				038B8F391FEF179100A2091B /* QZoomTransition.swift in Sources */,
 				038CEDA21FE8B5EF00A99DF1 /* QSlideInPresentationController.swift in Sources */,
 				038CEDAE1FE8B6E600A99DF1 /* QBaseTransition.swift in Sources */,
@@ -565,6 +568,7 @@
 				A49E38A645D6A4B8EC2204763CDD8264 /* QPushTransition.swift in Sources */,
 				038CEDA71FE8B6C700A99DF1 /* QPanInteractionController.swift in Sources */,
 				17441E9042F48FCA00B9CCCFC6894C35 /* QSlideTransition.swift in Sources */,
+				033874C12005466A00A1173D /* QPageTransition.swift in Sources */,
 				038B8F3A1FEF179100A2091B /* QZoomTransition.swift in Sources */,
 				3255E54F42F47381CCF4F26A17EA3342 /* QTransition-dummy.m in Sources */,
 				176EC28904604C6352EDB9D46EC70392 /* QTransition.swift in Sources */,
