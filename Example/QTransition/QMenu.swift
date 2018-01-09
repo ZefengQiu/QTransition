@@ -29,7 +29,8 @@ class QMenu: UIViewController
                                             QTransition(slideDirection: .right),
                                             QTransition(slideDirection: .top),
                                             QTransition(slideDirection: .bottom),
-                                            QTransition(pageDirection: .left)]
+                                            QTransition(pageDirection: .left),
+                                            QTransition(pageDirection: .bottom)]
   
   var tableView: UITableView = {
     let table = UITableView()
@@ -99,8 +100,11 @@ extension QMenu: UITableViewDataSource {
     case 6:
       cell.textLabel?.text = "zoom slide bottom"
       return cell
-    default:
+    case 7:
       cell.textLabel?.text = "page (left)"
+      return cell
+    default:
+      cell.textLabel?.text = "page (bottom)"
       return cell
     }
   }

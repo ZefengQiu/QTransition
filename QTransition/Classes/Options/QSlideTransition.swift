@@ -35,10 +35,13 @@ public class QSlideTransition: QBaseTransition {
     switch self.direction {
     case .left:
       dismissedFrame.origin.x = -presentedFrame.width
+      
     case .right:
       dismissedFrame.origin.x = containerView.frame.size.width
+      
     case .top:
       dismissedFrame.origin.y = -presentedFrame.height
+      
     case .bottom:
       dismissedFrame.origin.y = containerView.frame.size.height
     }

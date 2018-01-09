@@ -27,14 +27,18 @@ public class QPageTransition: QBaseTransition {
     case .left:
       presentingFrame.origin.x = presentedFrame.width
       dismissFrame.origin.x = -presentedFrame.width
+      
     case .right:
-      break
+      presentingFrame.origin.x = -presentedFrame.width
+      dismissFrame.origin.x = presentedFrame.width
       
     case .top:
-      break
-      
+      presentingFrame.origin.y = -presentedFrame.height
+      dismissFrame.origin.y = presentedFrame.height
+
     case .bottom:
-      break
+      presentingFrame.origin.y = presentedFrame.height
+      dismissFrame.origin.y = -presentedFrame.height
     }
     
     toVC.view.frame = self.isPresenting ? presentingFrame : dismissFrame
