@@ -43,20 +43,20 @@ open class QTransition: NSObject {
     }
   }
   
-  public convenience init(option: QTransitionConstant.Options.HorizontalSlide = .left, menuWidth: CGFloat) {
+  public convenience init(menuHorizontalDirection: QTransitionConstant.Options.HorizontalSlide = .left, menuWidth: CGFloat) {
     self.init()
     let transition = QSlideTransition()
-    transition.direction = option == .left ? .left : .right
+    transition.direction = menuHorizontalDirection == .left ? .left : .right
     transition.menuWidth = menuWidth
     self.transition = transition
   }
   
-  public convenience init(option: QTransitionConstant.Options.VerticalSlide = .top, menuHeight: CGFloat) {
+  public convenience init(menuVerticalDirection: QTransitionConstant.Options.VerticalSlide = .top, menuHeight: CGFloat) {
     self.init()
     let transition = QSlideTransition()
-    transition.direction = option == .top ? .top : .bottom
+    transition.direction = menuVerticalDirection == .top ? .top : .bottom
     transition.menuHeight = menuHeight
-    self.interactionController.gestureEdges = option == .top ? .top : .bottom
+    self.interactionController.gestureEdges = menuVerticalDirection == .top ? .top : .bottom
     self.transition = transition
   }
   
@@ -65,6 +65,13 @@ open class QTransition: NSObject {
     let transition = QZoomSlideTransition()
     transition.direction = slideDirection
     transition.zoomScale = zoomScale
+    self.transition = transition
+  }
+  
+  public convenience init(pageDirection: QTransitionConstant.Options.Page) {
+    self.init()
+    let transition = QPageTransition()
+    transition.direction = pageDirection
     self.transition = transition
   }
   
