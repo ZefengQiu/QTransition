@@ -37,13 +37,13 @@ public class QPageTransition: QBaseTransition {
       break
     }
     
-    toVC.view.frame = presentingFrame
+    toVC.view.frame = self.isPresenting ? presentingFrame : dismissFrame
     UIView.animate(withDuration: duration,
                    delay: 0.0,
                    options: .curveEaseInOut,
                    animations: {
                     toVC.view.frame = presentedFrame
-                    fromVC.view.frame = dismissFrame
+                    fromVC.view.frame = self.isPresenting ? dismissFrame : presentingFrame
     }, completion: { _ in
       if transitionContext.transitionWasCancelled {
         transitionContext.completeTransition(false)
