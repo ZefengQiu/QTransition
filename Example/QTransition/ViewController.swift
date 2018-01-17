@@ -54,7 +54,7 @@ class ViewController: UIViewController {
     self.menu.delegate = self
     self.menuTransition.interactionController.threshold = 0.25
     self.menuTransition.interactionController.speed = QMenu.menuHeight
-    self.setupPresentInteractive(to: self.menu, transition: self.menuTransition, leaveInteractive: true, enterInteractive: true)
+    self.setupPresentInteractive(to: self.menu, transition: self.menuTransition)
   }
   
 }
