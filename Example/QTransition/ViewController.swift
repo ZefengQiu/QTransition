@@ -39,7 +39,6 @@ class ViewController: UIViewController {
   }
   
   @objc private func presentDemo() {
-    NewViewController.numOfNewVC = 0
     let newVC = NewViewController(transition: self.transition)
     let nav = UINavigationController(rootViewController: newVC)
     self.present(to: nav, transition: self.transition, isInteractive: true)

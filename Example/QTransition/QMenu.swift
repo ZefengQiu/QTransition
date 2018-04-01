@@ -48,6 +48,10 @@ class QMenu: UIViewController
     fatalError("init(coder:) has not been implemented")
   }
   
+  deinit {
+    print("QMenu has been deinited")
+  }
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
