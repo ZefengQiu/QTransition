@@ -26,6 +26,11 @@ class NewViewController: UIViewController {
     fatalError("init(coder:) has not been implemented")
   }
   
+  deinit {
+    NewViewController.numOfNewVC -= 1
+    print("num of \(NewViewController.numOfNewVC) has been deinited")
+  }
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     

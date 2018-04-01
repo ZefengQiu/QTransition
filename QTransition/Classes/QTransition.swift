@@ -10,10 +10,10 @@ import UIKit
 open class QTransition: NSObject {
   
   /// toVC is the view controller which is going to be presented
-  public var toViewController: UIViewController?
+  public weak var toViewController: UIViewController?
   
   /// fromVC is always the view controller which is going to dismiss
-  public var fromViewController: UIViewController?
+  public weak var fromViewController: UIViewController?
   
   public var transition: QBaseTransition?
   
